@@ -29,9 +29,11 @@ a {
   min-height: 0 !important;
   width: 100%;
   position: absolute;
-  /* Ensure it's positioned above the video */
   z-index: 3;
-  /* Higher z-index to appear above the video */
+}
+
+.custom-navbar .default-btn {
+  color: #084838;
 }
 
 .custom-navbar .container-fluid {
@@ -67,7 +69,7 @@ a {
   border-radius: 8px;
   transform: none;
   transform-origin: 50% 50% 0px;
-  color: #084838;
+  color: #ffffff;
   font-weight: 600;
   font-size: 16px;
   text-decoration: none;
