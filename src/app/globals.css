@@ -44,6 +44,10 @@ a {
   color: #FFE788 !important;
 }
 
+.custom-navbar .nav-link:hover {
+  color: #FFE788 !important;
+}
+
 .text-green {
   color: #084838 !important;
 }

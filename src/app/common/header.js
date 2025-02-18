@@ -35,7 +35,7 @@ const Header = () => {
                   <Link
                     className="nav-link active"
                     aria-current="page"
-                    href="#"
+                    href="/"
                   >
                     HOME
                   </Link>
