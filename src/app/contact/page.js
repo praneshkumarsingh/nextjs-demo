@@ -4,7 +4,15 @@ import "./page.css";
 const page = () => {
   return (
     <>
-      <div className="breadcrumb-area custom-breadcrumb bg-gray bg-cover ">
+      <div
+        className="breadcrumb-area custom-breadcrumb bg-gray bg-cover"
+        style={{
+          backgroundImage: `url('/img/about-banner.png')`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          width: "100%",
+        }}
+      >
         <div className="container">
           <div className="breadcrumb-item">
             <div className="breadcrum-shape">
@@ -90,7 +98,6 @@ const page = () => {
               <div className="col-lg-6">
                 <div className="contact-bottom-left">
                   <div className="inner_section-area mb-50">
-                    <span className="sub-title">GET IN TOUCH</span>
                     <h2 className="title mb-4">
                       Connect with & ignite <br /> the conversation!
                     </h2>
@@ -108,7 +115,7 @@ const page = () => {
                               aria-expanded="true"
                               aria-controls="collapseOne"
                             >
-                              What is Doodle Content Writing Tool?
+                              Dubai
                             </button>
                           </h2>
                           <div
@@ -139,7 +146,7 @@ const page = () => {
                               aria-expanded="false"
                               aria-controls="collapseTwo"
                             >
-                              What Languages Does It Supports?
+                              Abu Dhabi
                             </button>
                           </h2>
                           <div
@@ -170,13 +177,44 @@ const page = () => {
                               aria-expanded="false"
                               aria-controls="collapseThree"
                             >
-                              How are AI writers impacting the writing industry?
+                              Washington
                             </button>
                           </h2>
                           <div
                             id="collapseThree"
                             className="accordion-collapse collapse"
                             aria-labelledby="headingThree"
+                            data-bs-parent="#Expp"
+                          >
+                            <div className="accordion-body p-3">
+                              <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14599.593481274613!2d90.42342665!3d23.8222127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1701453167946!5m2!1sen!2sbd"
+                                width="600"
+                                height="450"
+                                allowFullScreen=""
+                                loading="lazy"
+                                referrerPolicy="no-referrer-when-downgrade"
+                              ></iframe>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="accordion-item">
+                          <h2 className="accordion-header" id="headingThree">
+                            <button
+                              className="accordion-button collapsed py-3"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#collapseFour"
+                              aria-expanded="false"
+                              aria-controls="collapseFour"
+                            >
+                              Delaware
+                            </button>
+                          </h2>
+                          <div
+                            id="collapseFour"
+                            className="accordion-collapse collapse"
+                            aria-labelledby="headingFour"
                             data-bs-parent="#Expp"
                           >
                             <div className="accordion-body p-3">

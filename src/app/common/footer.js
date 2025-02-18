@@ -2,14 +2,11 @@ import React from "react";
 const Footer = () => {
   return (
     <>
-      <footer className="bg-dark text-light footer-custom">
+      <footer className="bg-green text-light footer-custom">
         <div className="container">
           <div className="footer-top">
             <div className="row">
               <div className="col-lg-3 footer-item">
-                <div className="footer-animated-shape">
-                  <img src="/img/footer-icon.png" alt="Dilabs" />
-                </div>
                 <div className="footer-about">
                   <img src="/img/logo-white.webp" className="img-fluid logo" />
                   <p>
@@ -118,11 +115,11 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="footer-bottom bg-dark text-light text-center">
+        <div className="footer-bottom bg-green text-light text-center">
           <div className="container">
             <div className="row">
               <div className="col-lg-12">
-                <p>
+                <p className="mb-0">
                   Copyright 2025. All Rights Reserved by{" "}
                   <a href="#">ELILE AI.</a>
                 </p>

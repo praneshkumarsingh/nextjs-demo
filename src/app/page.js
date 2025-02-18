@@ -48,10 +48,7 @@ function page() {
         <div className="container">
           <div className="row">
             <div className="col-lg-4">
-              <div
-                className="story-wapper text-light"
-                style={{ backgroundImage: "url(/7.png)" }}
-              >
+              <div className="story-wapper text-light">
                 <ul className="check-list-item list-unstyled">
                   <li>
                     <div className="icon-wapper">
@@ -112,7 +109,7 @@ function page() {
           <div className="row justify-content-between">
             <div className="col-xl-5 col-lg-5">
               <div className="achivement-counter">
-                <ul>
+                <ul className="list-unstyled">
                   <li>
                     <div className="icon">
                       <img src="/img/startup.png" className="img-fluid" />
@@ -216,9 +213,6 @@ function page() {
                   <a href="service-details" className="icon-btn">
                     <i className="fas fa-arrow-right"></i>
                   </a>
-                  <div className="shape">
-                    <img src="/img/service-shape.webp" />
-                  </div>
                 </div>
               </div>
             </div>
@@ -236,9 +230,6 @@ function page() {
                   <a href="service-details" className="icon-btn">
                     <i className="fas fa-arrow-right"></i>
                   </a>
-                  <div className="shape">
-                    <img src="/img/service-shape.webp" />
-                  </div>
                 </div>
               </div>
             </div>
@@ -256,9 +247,6 @@ function page() {
                   <a href="service-details" className="icon-btn">
                     <i className="fas fa-arrow-right"></i>
                   </a>
-                  <div className="shape">
-                    <img src="/img/service-shape.webp" />
-                  </div>
                 </div>
               </div>
             </div>
@@ -276,9 +264,6 @@ function page() {
                   <a href="service-details" className="icon-btn">
                     <i className="fas fa-arrow-right"></i>
                   </a>
-                  <div className="shape">
-                    <img src="/img/service-shape.webp" />
-                  </div>
                 </div>
               </div>
             </div>
@@ -296,9 +281,6 @@ function page() {
                   <a href="service-details" className="icon-btn">
                     <i className="fas fa-arrow-right"></i>
                   </a>
-                  <div className="shape">
-                    <img src="/img/service-shape.webp" />
-                  </div>
                 </div>
               </div>
             </div>
@@ -316,9 +298,6 @@ function page() {
                   <a href="service-details" className="icon-btn">
                     <i className="fas fa-arrow-right"></i>
                   </a>
-                  <div className="shape">
-                    <img src="/img/service-shape.webp" />
-                  </div>
                 </div>
               </div>
             </div>
@@ -406,7 +385,6 @@ function page() {
                 <h2 className="title">
                   Frequently Asked <br /> Questions
                 </h2>
-                <img src="/img/faq-img.png" className="img-fluid" />
               </div>
             </div>
             <div className="col-lg-7">

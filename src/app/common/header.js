@@ -5,8 +5,8 @@ const Header = () => {
   return (
     <>
       <header className="custom-navbar">
-        <nav className="navbar navbar-expand-lg py-0">
-          <div className="container">
+        <nav className="navbar navbar-expand-lg">
+          <div className="container-fluid">
             <a className="navbar-brand py-0" href="#">
               <Image
                 src="/logo.png"
@@ -37,12 +37,12 @@ const Header = () => {
                     aria-current="page"
                     href="/"
                   >
-                    HOME
+                    Home
                   </Link>
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link" href="/about">
-                    WHY ELILE
+                    Why Elile
                   </Link>
                 </li>
                 <li className="nav-item dropdown">
@@ -53,7 +53,7 @@ const Header = () => {
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
-                    SERVICES
+                    Services
                   </Link>
                   <ul className="dropdown-menu">
                     <li>
@@ -78,17 +78,17 @@ const Header = () => {
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link" aria-disabled="true" href="#">
-                    DOMAINS
+                    Domains
                   </Link>
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link" aria-disabled="true" href="#">
-                    OUR EXPERTISE
+                    Our Expertise
                   </Link>
                 </li>
                 <li className="nav-item pe-0">
                   <Link className="nav-link" aria-disabled="true" href="#">
-                    OUR TEAM
+                    Our Team
                   </Link>
                 </li>
               </ul>

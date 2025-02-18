@@ -5,7 +5,15 @@ import { Journey } from "../components/Journey";
 const page = () => {
   return (
     <>
-      <div className="breadcrumb-area custom-breadcrumb bg-gray bg-cover ">
+      <div
+        className="breadcrumb-area custom-breadcrumb bg-green bg-cover"
+        style={{
+          backgroundImage: `url('/img/about-banner.png')`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          width: "100%",
+        }}
+      >
         <div className="container">
           <div className="breadcrumb-item">
             <div className="breadcrum-shape">
@@ -43,7 +51,6 @@ const page = () => {
             </div>
             <div className="col-lg-6">
               <div className="about-two-info">
-                <h4 className="sub-title">About our compnay</h4>
                 <h2 className="title">
                   Providing the best service <br /> In digital marketing
                 </h2>
@@ -140,13 +147,6 @@ const page = () => {
                   <h4>Our Mission & Vision</h4>
                   <p>Customize templates and create unique campaigns </p>
                 </div>
-                <div className="icon">
-                  <img
-                    decoding="async"
-                    src="https://wordpress.validthemes.net/dilabs/wp-content/uploads/2023/06/11-1.png"
-                    alt="Dilabs"
-                  />
-                </div>
               </div>
             </div>
             <div className="col-lg-4 col-md-6 mb-30">
@@ -155,13 +155,6 @@ const page = () => {
                   <h4>Strategic Asset Management</h4>
                   <p>Reach goals on every communication channel </p>
                 </div>
-                <div className="icon">
-                  <img
-                    decoding="async"
-                    src="https://wordpress.validthemes.net/dilabs/wp-content/uploads/2023/06/12.png"
-                    alt="Dilabs"
-                  />
-                </div>
               </div>
             </div>
             <div className="col-lg-4 col-md-6 mb-30">
@@ -169,13 +162,6 @@ const page = () => {
                 <div className="info">
                   <h4>Autonomous Operations Framework</h4>
                   <p>Reach goals on every communication channel </p>
-                </div>
-                <div className="icon">
-                  <img
-                    decoding="async"
-                    src="https://wordpress.validthemes.net/dilabs/wp-content/uploads/2023/06/12.png"
-                    alt="Dilabs"
-                  />
                 </div>
               </div>
             </div>
@@ -188,7 +174,6 @@ const page = () => {
           <div className="row">
             <div className="col-lg-8 offset-lg-2">
               <div className="site-heading text-center">
-                <h5 className="sub-title">Team members</h5>
                 <h2 className="title">
                   Our professional <br /> expert team members
                 </h2>

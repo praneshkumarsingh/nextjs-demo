@@ -104,6 +104,7 @@ ul.check-list-item li .icon {
   background-size: contain;
   background-position: left bottom;
   background-color: #084838;
+  border-radius: 10px;
 }
 
 .icon-wapper {
@@ -323,7 +324,7 @@ ul.check-list-item li .icon {
 
 .achivement-counter {
   display: block;
-  padding: 90px;
+  padding: 62px;
   border-radius: 10px;
   background-size: cover;
   background-position: center;
@@ -361,7 +362,7 @@ ul.check-list-item li .icon {
 .achivement-counter .fun-fact .counter {
   color: #fff;
   font-size: 60px;
-  font-weight: 900;
+  font-weight: 600;
   margin-bottom: 10px;
 }
 
@@ -377,7 +378,7 @@ ul.check-list-item li .icon {
 
 .achivement-counter .fun-fact .medium {
   color: #fff;
-  font-weight: 800;
+  font-weight: 600;
 }
 
 .achivement-counter li:first-child {
@@ -401,8 +402,8 @@ ul.check-list-item li .icon {
 
 .title {
   color: #084838;
-  font-weight: 800;
-  font-size: 42px;
+  font-weight: 600;
+  font-size: 38px;
   line-height: 1.2;
   letter-spacing: 0;
   margin: 0;
@@ -479,7 +480,7 @@ ul.check-list-item li .icon {
 
 .service-caption .title {
   color: #fff;
-  font-weight: 800;
+  font-weight: 600;
   font-size: 42px;
   line-height: 1.2;
   letter-spacing: 0;
@@ -490,7 +491,7 @@ ul.check-list-item li .icon {
 
 .service-caption a {
   display: inline-block;
-  background: #219653;
+  background: #084838;
   color: #fff;
   padding: 13px 50px;
   border-radius: 30px;
@@ -526,7 +527,7 @@ ul.check-list-item li .icon {
   background: rgba(255, 255, 255, 0.4);
 }
 
-.service-caption::after {
+/* .service-caption::after {
   position: absolute;
   left: 0;
   top: 0;
@@ -539,7 +540,7 @@ ul.check-list-item li .icon {
   z-index: -1;
   opacity: 0.8;
   background-size: contain;
-}
+} */
 
 .service-box {
   padding: 60px 40px;
@@ -581,12 +582,12 @@ ul.check-list-item li .icon {
   outline: medium none;
   text-decoration: none;
   color: #04000b;
-  font-weight: 800;
+  font-weight: 600;
 }
 
 .service-box span {
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 13px;
   display: block;
   margin-top: 7px;
@@ -663,9 +664,9 @@ ul.check-list-item li .icon {
   background: #F3F8F4;
   border-radius: 0 !important;
   border: 0;
-  color: #04000b;
+  color: #084838 !important;
   font-size: 22px;
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: -0.6px;
   padding: 29px 30px;
   line-height: 1;
@@ -689,10 +690,18 @@ ul.check-list-item li .icon {
   background-size: 1rem;
 }
 
+.accordion-button:focus {
+  box-shadow: unset !important;
+}
 
-.faq-caption img {
-  padding-right: 5rem;
-  margin-top: 1rem;
+.accordion-button:not(.collapsed) {
+  box-shadow: unset !important;
+}
+
+.faq-caption {
+  position: sticky;
+  top: 0;
+  z-index: 1021;
 }
 
 .faq-content .accordion-body p {
