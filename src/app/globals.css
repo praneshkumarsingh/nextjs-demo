@@ -49,11 +49,12 @@ a {
   color: #FFE788 !important;
 }
 
-.custom-navbar .nav-link:hover {
+.custom-navbar .nav-link:hover,
+.custom-navbar .nav-link:focus {
   color: #FFE788 !important;
 }
 
-.text-green {
+.nav-link:focus .text-green {
   color: #084838 !important;
 }
 
