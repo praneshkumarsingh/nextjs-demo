@@ -380,9 +380,7 @@ ul.list-info-item li h4 a {
 }
 
 .custom-navbar .nav-link {
-  font-size: 16px;
-  font-weight: 600;
-  color: #084838;
+  color: #084838 !important;
 }
 
 .navbar-nav .nav-link.active {
