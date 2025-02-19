@@ -700,7 +700,7 @@ ul.check-list-item li .icon {
 
 .faq-caption {
   position: sticky;
-  top: 0;
+  top: 8rem;
   z-index: 1021;
 }
 
