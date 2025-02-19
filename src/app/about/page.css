@@ -258,11 +258,19 @@ ul.list-info-item li h4 a {
   padding-left: 50px;
 }
 
+.case-studies-area {
+  background: #F3F8F4;
+}
+
+.h4_service-area {
+  background: #F3F8F4;
+  padding: 60px 0px;
+}
 
 .h4_service-item {
   padding: 40px 35px 35px;
   border-radius: 14px;
-  background: #F0F2F8;
+  background: #fff;
   -webkit-transition: all 0.3s linear 0s;
   -moz-transition: all 0.3s linear 0s;
   -ms-transition: all 0.3s linear 0s;
@@ -272,7 +280,7 @@ ul.list-info-item li h4 a {
 
 .h4_service-item-number {
   border-radius: 30px;
-  background: #FFF;
+  background: #F3F8F4;
   box-shadow: 0px 2px 4px 0px rgba(27, 42, 82, 0.2);
   width: 44px;
   height: 44px;
@@ -336,6 +344,7 @@ ul.list-info-item li h4 a {
   -o-transition: all 0.3s linear 0s;
   transition: all 0.3s linear 0s;
   font-weight: 500;
+  background-color: #fff;
 }
 
 .h4_service-navigation div:hover {
@@ -354,7 +363,7 @@ ul.list-info-item li h4 a {
 
 .feature-style-one {
   padding: 60px 40px;
-  background: linear-gradient(0deg, #F4F4F9 40%, #FBFBFD00 60%);
+  background: linear-gradient(0deg, #F3F8F4 40%, #FBFBFD00 60%);
   border-radius: 10px;
   border: 2px solid #e9e9e9;
 }
@@ -376,4 +385,71 @@ ul.list-info-item li h4 a {
 .feature-style-one p {
   margin: 0;
   font-size: 18px;
+}
+
+/* ============================================================== 
+    # Case
+=================================================================== */
+.case-style-two .info {
+  padding: 80px;
+  margin-top: 80px;
+  position: relative;
+  z-index: 1;
+  background: #084838;
+  background-size: cover;
+  background-position: center;
+}
+
+.case-style-two img {
+  max-width: 120%;
+}
+
+.case-style-two .info h2 {
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.swiper-pagination {
+  position: absolute;
+  right: 0;
+  top: 150px;
+  width: 200px;
+  z-index: 9;
+  height: 40px;
+  text-align: right;
+}
+
+.swiper-pagination {
+  text-align: right;
+}
+
+.swiper-pagination span.swiper-pagination-bullet {
+  height: 20px;
+  width: 20px;
+  border: 1px solid var(--color-heading);
+  background: transparent;
+  position: relative;
+  z-index: 1;
+}
+
+.swiper-pagination span.swiper-pagination-bullet::after {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  content: "";
+  height: 5px;
+  width: 5px;
+  background: var(--color-heading);
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+
+.case-studies-area {
+  background-size: 36%;
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+
+.content-left {
+  margin-bottom: 60px;
 }

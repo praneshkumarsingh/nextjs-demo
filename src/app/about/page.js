@@ -1,6 +1,7 @@
 import React from "react";
 import "./page.css";
 import { Journey } from "../components/Journey";
+import { Case } from "../components/Case";
 
 const page = () => {
   return (
@@ -16,9 +17,6 @@ const page = () => {
       >
         <div className="container">
           <div className="breadcrumb-item">
-            <div className="breadcrum-shape">
-              <img src="/img/breadcrumb.png" alt="Dilabs" />
-            </div>
             <div className="row">
               <div className="col-lg-8 ">
                 <nav className="woocommerce-breadcrumb" aria-label="Breadcrumb">
@@ -164,6 +162,26 @@ const page = () => {
                   <p>Reach goals on every communication channel </p>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="case-studies-area section-gap">
+        <div className="container">
+          <div className="case-carousel swiper">
+            <div className="heading-left">
+              <div className="row justify-content-center">
+                <div className="col-xl-5 col-lg-6">
+                  <div className="content-left">
+                    <h2 className="title">Our core capabilities</h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="swiper-wrapper">
+              <Case />
             </div>
           </div>
         </div>

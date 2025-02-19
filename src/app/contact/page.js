@@ -15,9 +15,6 @@ const page = () => {
       >
         <div className="container">
           <div className="breadcrumb-item">
-            <div className="breadcrum-shape">
-              <img src="/img/breadcrumb.png" alt="Dilabs" />
-            </div>
             <div className="row">
               <div className="col-lg-8 ">
                 <nav className="woocommerce-breadcrumb" aria-label="Breadcrumb">
