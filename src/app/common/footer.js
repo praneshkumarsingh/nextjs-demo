@@ -10,8 +10,8 @@ const Footer = () => {
                 <div className="footer-about">
                   <img src="/img/logo-white.webp" className="img-fluid logo" />
                   <p>
-                    Are off under folly death writter transforming cold regular.
-                    Almost do am or limits of hearts.{" "}
+                    AI for energy efficiency and abundance, powering a more
+                    sustainable and resilient future.
                   </p>
                   <div className="footer-social mt-5">
                     <ul className="list-unstyled">
@@ -94,7 +94,7 @@ const Footer = () => {
                   <h4 className="widget-title">Newsletter</h4>
                   <p>
                     Join our subscribers list to get the instant latest news and
-                    special offers.{" "}
+                    special offers.
                   </p>
                   <div className="newsletter">
                     <form className="newsletter-form">
@@ -105,7 +105,6 @@ const Footer = () => {
                         name="email"
                       />
                       <button type="submit">
-                        {" "}
                         <i className="fa fa-paper-plane text-light"></i>
                       </button>
                     </form>
@@ -120,8 +119,10 @@ const Footer = () => {
             <div className="row">
               <div className="col-lg-12">
                 <p className="mb-0">
-                  Copyright 2025. All Rights Reserved by{" "}
-                  <a href="#">ELILE AI.</a>
+                  Copyright 2025. All Rights Reserved by
+                  <a href="#" className="ms-2 text-primery">
+                    ELILE AI.
+                  </a>
                 </p>
               </div>
             </div>
