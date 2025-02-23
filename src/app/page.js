@@ -2,7 +2,7 @@ import React from "react";
 import "./page.css";
 import { GoArrowUpRight } from "react-icons/go";
 import { BsArrowRight } from "react-icons/bs";
-import { Slider } from "./components/Slider";
+import { Testimonial } from "./components/testimonial";
 
 function page() {
   return (
@@ -17,11 +17,9 @@ function page() {
             <div className="row justify-content-center">
               <div className="col-lg-9">
                 <div className="home-content text-center">
-                  <div className="gradient-sub-border-wrap">
-                    <span className="gradient-sub">
-                      Advanced AI-POWERED ENERGY Solutions
-                    </span>
-                  </div>
+                  <span className="sub-title">
+                    Advanced AI-POWERED ENERGY Solutions
+                  </span>
                   <h1>Smarter, Faster & More Efficient Energy Management </h1>
                   <p className="mb-5">
                     Robust AI-powered energy solutions to predict failures,
@@ -95,7 +93,7 @@ function page() {
                 </video>
                 <a
                   href="#"
-                  className="popup-youtube video-play-button with-text mt-20"
+                  className="popup-youtube video-play-button with-text"
                 >
                   <div className="effect"></div>
                   <span>
@@ -152,7 +150,6 @@ function page() {
             <div className="col-lg-6 d-flex">
               <div className="align-self-center">
                 <div className="choose-caption">
-                  {/* <h5 className="sub-title">Why Choose Us</h5> */}
                   <h2 className="title">
                     Pioneering AI in energy <br />
                     infrastructure & data centers
@@ -195,7 +192,6 @@ function page() {
           <div className="row">
             <div className="col-lg-6">
               <div className="service-caption">
-                {/* <h3 className="sub-title">Our Services</h3> */}
                 <h2 className="title">
                   Possibilities with reliability as a service
                 </h2>
@@ -380,7 +376,7 @@ function page() {
           <div className="row section-gap">
             <div className="col-lg-12">
               <div className="testimonial-carousel">
-                <Slider />
+                <Testimonial />
               </div>
             </div>
           </div>

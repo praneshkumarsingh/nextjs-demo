@@ -4,7 +4,7 @@ import "./page.css";
 const page = () => {
   return (
     <>
-      <div
+      <section
         className="breadcrumb-area custom-breadcrumb bg-gray bg-cover"
         style={{
           backgroundImage: `url('/img/about-banner.png')`,
@@ -26,7 +26,7 @@ const page = () => {
             </div>
           </div>
         </div>
-      </div>
+      </section>
       <section className="contact-area section-gap">
         <div className="container">
           <div className="row justify-content-center">
@@ -38,59 +38,61 @@ const page = () => {
               </div>
             </div>
           </div>
-          <div className="row">
-            <div
-              className="col-lg-4 col-md-6 mb-30 tp_fade_left"
-              data-fade-from="left"
-            >
-              <div className="contact-item">
-                <div className="contact-icon">
-                  <i className="fa-solid fa-message"></i>
-                </div>
-                <div className="contact-content">
-                  <h4 className="contact-content-title">Chat with us.</h4>
-                  <p>Monday - Friday : 9am to 6pm.</p>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-lg-4 col-md-6 mb-30 tp_fade_left"
-              data-fade-from="left"
-              data-delay=".6"
-            >
-              <div className="contact-item">
-                <div className="contact-icon">
-                  <i className="fa-solid fa-phone-volume"></i>
-                </div>
-                <div className="contact-content">
-                  <h4 className="contact-content-title">Give us a call</h4>
-                  <a href="tel:+480-555-0103">+480-555-0103</a>
-                  <a href="tel:+239-555-0108">+239-555-0108</a>
+          <div className="contact-top">
+            <div className="row">
+              <div
+                className="col-lg-4 col-md-6 mb-30 tp_fade_left"
+                data-fade-from="left"
+              >
+                <div className="contact-item">
+                  <div className="contact-icon">
+                    <i className="fa-solid fa-message"></i>
+                  </div>
+                  <div className="contact-content">
+                    <h4 className="contact-content-title">Chat with us.</h4>
+                    <p>Monday - Friday : 9am to 6pm.</p>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div
-              className="col-lg-4 col-md-6 mb-30 tp_fade_left"
-              data-fade-from="left"
-              data-delay=".9"
-            >
-              <div className="contact-item">
-                <div className="contact-icon">
-                  <i className="fa-solid fa-envelope-open"></i>
+              <div
+                className="col-lg-4 col-md-6 mb-30 tp_fade_left"
+                data-fade-from="left"
+                data-delay=".6"
+              >
+                <div className="contact-item">
+                  <div className="contact-icon">
+                    <i className="fa-solid fa-phone-volume"></i>
+                  </div>
+                  <div className="contact-content">
+                    <h4 className="contact-content-title">Give us a call</h4>
+                    <a href="tel:+480-555-0103">+480-555-0103</a>
+                    <a href="tel:+239-555-0108">+239-555-0108</a>
+                  </div>
                 </div>
-                <div className="contact-content">
-                  <h4 className="contact-content-title">Email with us.</h4>
-                  <a href="mailto:support.young@example.com">
-                    support.young@example.com
-                  </a>
-                  <a href="mailto:bill.robert@example.com">
-                    bill.robert@example.com
-                  </a>
+              </div>
+              <div
+                className="col-lg-4 col-md-6 mb-30 tp_fade_left"
+                data-fade-from="left"
+                data-delay=".9"
+              >
+                <div className="contact-item">
+                  <div className="contact-icon">
+                    <i className="fa-solid fa-envelope-open"></i>
+                  </div>
+                  <div className="contact-content">
+                    <h4 className="contact-content-title">Email with us.</h4>
+                    <a href="mailto:support.young@example.com">
+                      support.young@example.com
+                    </a>
+                    <a href="mailto:bill.robert@example.com">
+                      bill.robert@example.com
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-          <div className="contact-bottom section-gap">
+          <div className="contact-bottom">
             <div className="row">
               <div className="col-lg-6">
                 <div className="contact-bottom-left">

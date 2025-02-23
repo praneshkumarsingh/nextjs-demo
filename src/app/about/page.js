@@ -1,12 +1,13 @@
 import React from "react";
 import "./page.css";
 import { Journey } from "../components/Journey";
-import { Case } from "../components/Case";
+import { Capability } from "../components/Capability";
 
 const page = () => {
   return (
     <>
-      <div
+      {/* ----------- Page Banner --------- */}
+      <section
         className="breadcrumb-area custom-breadcrumb bg-green bg-cover"
         style={{
           backgroundImage: `url('/img/about-banner.png')`,
@@ -28,12 +29,13 @@ const page = () => {
             </div>
           </div>
         </div>
-      </div>
-      <div className="about-style-two-area section-gap">
+      </section>
+      {/* ----------- About Banner --------- */}
+      <section className="about-area section-gap">
         <div className="container">
           <div className="row">
-            <div className="col-lg-6 about-style-two">
-              <div className="about-two-thumb">
+            <div className="col-lg-6">
+              <div className="about-thumb">
                 <img
                   decoding="async"
                   src="/img/about/4.jpg"
@@ -48,7 +50,7 @@ const page = () => {
               </div>
             </div>
             <div className="col-lg-6">
-              <div className="about-two-info">
+              <div className="about-info">
                 <h2 className="title">
                   Providing the best service <br /> In digital marketing
                 </h2>
@@ -105,9 +107,9 @@ const page = () => {
             </div>
           </div>
         </div>
-      </div>
-
-      <section className="h4_service-area pt-130 pb-90">
+      </section>
+      {/* ----------- Journey Banner --------- */}
+      <section className="journey-area">
         <div className="container">
           <div className="row mb-5 align-items-end">
             <div className="col-xl-6 col-lg-7 col-md-8 col-sm-9">
@@ -118,28 +120,28 @@ const page = () => {
               </div>
             </div>
             <div className="col-xl-6 col-lg-5 col-md-4 col-sm-3">
-              <div className="h4_service-navigation mb-30 tp_fade_left">
-                <div className="h4_service-prev">
+              <div className="journey-navigation  tp_fade_left">
+                <div className="journey-prev">
                   <i className="fa-solid fa-angle-left"></i>
                 </div>
-                <div className="h4_service-next">
+                <div className="journey-next">
                   <i className="fa-solid fa-angle-right"></i>
                 </div>
               </div>
             </div>
           </div>
-          <div className="swiper h4_service-active mt-5">
+          <div className="swiper journey-active mt-5">
             <div className="swiper-wrapper">
               <Journey />
             </div>
           </div>
         </div>
       </section>
-
-      <div className="feature-style-one-area section-gap">
+      {/* ----------- Our Feature Banner --------- */}
+      <section className="feature-style-one-area section-gap">
         <div className="container">
           <div className="row align-center">
-            <div className="col-lg-4 col-md-6 mb-30">
+            <div className="col-lg-4 col-md-6 ">
               <div className="feature-style-one cont">
                 <div className="info">
                   <h4>Our Mission & Vision</h4>
@@ -147,7 +149,7 @@ const page = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6 mb-30">
+            <div className="col-lg-4 col-md-6 ">
               <div className="feature-style-one cont">
                 <div className="info">
                   <h4>Strategic Asset Management</h4>
@@ -155,7 +157,7 @@ const page = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6 mb-30">
+            <div className="col-lg-4 col-md-6 ">
               <div className="feature-style-one cont">
                 <div className="info">
                   <h4>Autonomous Operations Framework</h4>
@@ -165,13 +167,13 @@ const page = () => {
             </div>
           </div>
         </div>
-      </div>
-
-      <div className="case-studies-area section-gap">
+      </section>
+      {/* ----------- Capability Banner --------- */}
+      <section className="capability-area section-gap">
         <div className="container">
           <div className="case-carousel swiper">
             <div className="heading-left">
-              <div className="row justify-content-center">
+              <div className="row justify-content-center text-center">
                 <div className="col-xl-5 col-lg-6">
                   <div className="content-left">
                     <h2 className="title">Our core capabilities</h2>
@@ -181,13 +183,13 @@ const page = () => {
             </div>
 
             <div className="swiper-wrapper">
-              <Case />
+              <Capability />
             </div>
           </div>
         </div>
-      </div>
-
-      <div className="our-team section-gap">
+      </section>
+      {/* ----------- Team Banner --------- */}
+      <section className="our-team section-gap">
         <div className="container">
           <div className="row">
             <div className="col-lg-8 offset-lg-2">
@@ -201,7 +203,7 @@ const page = () => {
         </div>
         <div className="container">
           <div className="row">
-            <div className="col-xl-4 col-md-6 mb-30">
+            <div className="col-xl-4 col-md-6 ">
               <div className="team-style-one">
                 <div className="thumb">
                   <img
@@ -248,7 +250,7 @@ const page = () => {
                 </div>
               </div>
             </div>
-            <div className="col-xl-4 col-md-6 mb-30">
+            <div className="col-xl-4 col-md-6 ">
               <div className="team-style-one">
                 <div className="thumb">
                   <img
@@ -295,7 +297,7 @@ const page = () => {
                 </div>
               </div>
             </div>
-            <div className="col-xl-4 col-md-6 mb-30">
+            <div className="col-xl-4 col-md-6 ">
               <div className="team-style-one">
                 <div className="thumb">
                   <img
@@ -344,7 +346,7 @@ const page = () => {
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 };

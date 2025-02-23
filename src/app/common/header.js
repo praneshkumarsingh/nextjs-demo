@@ -7,13 +7,8 @@ const Header = () => {
       <header className="custom-navbar">
         <nav className="navbar navbar-expand-lg">
           <div className="container-fluid">
-            <a className="navbar-brand py-0" href="#">
-              <Image
-                src="/logo.png"
-                width={110}
-                height={80}
-                alt="Website Logo"
-              />
+            <a className="navbar-brand py-0" href="/">
+              <Image src="/logo.png" width={110} height={80} alt="Elile Logo" />
             </a>
             <button
               className="navbar-toggler"

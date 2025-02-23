@@ -8,7 +8,7 @@ import "swiper/css/pagination";
 // import required modules
 import { Autoplay } from "swiper/modules";
 
-export const Slider = () => {
+export const Testimonial = () => {
   return (
     <>
       <Swiper
@@ -19,16 +19,13 @@ export const Slider = () => {
           delay: 2500,
           disableOnInteraction: false,
         }}
-        pagination={{
-          dynamicBullets: true,
-        }}
         modules={[Autoplay]}
         className="mySwiper"
       >
         <SwiperSlide>
-          <div className="h4_testimonial-item">
-            <div className="h4_testimonial-item-top">
-              <ul className="h4_testimonial-rating list-unstyled">
+          <div className="testimonial-item">
+            <div className="testimonial-item-top">
+              <ul className="testimonial-rating list-unstyled">
                 <li>
                   <i className="fa-solid fa-star"></i>
                 </li>
@@ -45,7 +42,7 @@ export const Slider = () => {
                   <i className="fa-solid fa-star"></i>
                 </li>
               </ul>
-              <div className="h4_testimonial-icon">
+              <div className="testimonial-icon">
                 <svg
                   width="15"
                   height="12"
@@ -68,17 +65,17 @@ export const Slider = () => {
                 We’ve seen a 90% improvement in our alert systems.
               </p>
             </div>
-            <div className="h4_testimonial-head">
-              <div className="h4_testimonial-head-info">
+            <div className="testimonial-head">
+              <div className="testimonial-head-info">
                 <h6>ACWA, Middle East </h6>
               </div>
             </div>
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="h4_testimonial-item">
-            <div className="h4_testimonial-item-top">
-              <ul className="h4_testimonial-rating list-unstyled">
+          <div className="testimonial-item">
+            <div className="testimonial-item-top">
+              <ul className="testimonial-rating list-unstyled">
                 <li>
                   <i className="fa-solid fa-star"></i>
                 </li>
@@ -95,7 +92,7 @@ export const Slider = () => {
                   <i className="fa-solid fa-star"></i>
                 </li>
               </ul>
-              <div className="h4_testimonial-icon">
+              <div className="testimonial-icon">
                 <svg
                   width="15"
                   height="12"
@@ -119,17 +116,17 @@ export const Slider = () => {
                 experienced!
               </p>
             </div>
-            <div className="h4_testimonial-head">
-              <div className="h4_testimonial-head-info">
+            <div className="testimonial-head">
+              <div className="testimonial-head-info">
                 <h6>SK Gulf, Oman</h6>
               </div>
             </div>
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="h4_testimonial-item">
-            <div className="h4_testimonial-item-top">
-              <ul className="h4_testimonial-rating list-unstyled">
+          <div className="testimonial-item">
+            <div className="testimonial-item-top">
+              <ul className="testimonial-rating list-unstyled">
                 <li>
                   <i className="fa-solid fa-star"></i>
                 </li>
@@ -146,7 +143,7 @@ export const Slider = () => {
                   <i className="fa-solid fa-star"></i>
                 </li>
               </ul>
-              <div className="h4_testimonial-icon">
+              <div className="testimonial-icon">
                 <svg
                   width="15"
                   height="12"
@@ -170,17 +167,17 @@ export const Slider = () => {
                 downtimes.
               </p>
             </div>
-            <div className="h4_testimonial-head">
-              <div className="h4_testimonial-head-info">
+            <div className="testimonial-head">
+              <div className="testimonial-head-info">
                 <h6>KCN Networks</h6>
               </div>
             </div>
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="h4_testimonial-item">
-            <div className="h4_testimonial-item-top">
-              <ul className="h4_testimonial-rating list-unstyled">
+          <div className="testimonial-item">
+            <div className="testimonial-item-top">
+              <ul className="testimonial-rating list-unstyled">
                 <li>
                   <i className="fa-solid fa-star"></i>
                 </li>
@@ -197,7 +194,7 @@ export const Slider = () => {
                   <i className="fa-solid fa-star"></i>
                 </li>
               </ul>
-              <div className="h4_testimonial-icon">
+              <div className="testimonial-icon">
                 <svg
                   width="15"
                   height="12"
@@ -221,8 +218,8 @@ export const Slider = () => {
                 solutions in the energy sector.
               </p>
             </div>
-            <div className="h4_testimonial-head">
-              <div className="h4_testimonial-head-info">
+            <div className="testimonial-head">
+              <div className="testimonial-head-info">
                 <h6>Trullium Studios</h6>
               </div>
             </div>

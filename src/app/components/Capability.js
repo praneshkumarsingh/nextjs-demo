@@ -8,7 +8,7 @@ import "swiper/css/pagination";
 // import required modules
 import { Autoplay, Pagination } from "swiper/modules";
 
-export const Case = () => {
+export const Capability = () => {
   return (
     <>
       <Swiper
@@ -21,12 +21,13 @@ export const Case = () => {
         }}
         pagination={{
           dynamicBullets: true,
+          clickable: true,
         }}
         modules={[Autoplay, Pagination]}
         className="mySwiper"
       >
         <SwiperSlide>
-          <div className="case-style-two">
+          <div className="capability-wapper">
             <div className="row">
               <div className="col-xl-6">
                 <div className="case-thumb">
@@ -56,7 +57,7 @@ export const Case = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="case-style-two">
+          <div className="capability-wapper">
             <div className="row">
               <div className="col-xl-6">
                 <div className="case-thumb">
@@ -64,10 +65,7 @@ export const Case = () => {
                 </div>
               </div>
               <div className="col-xl-6">
-                <div
-                  className="info text-light"
-                  // style="background-image: url(assets/img/shape/banner-3.webp);"
-                >
+                <div className="info text-light">
                   <h2>Prevent</h2>
                   <p>
                     We employ multi-agent systems and decentralized AI for
@@ -87,7 +85,7 @@ export const Case = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="case-style-two">
+          <div className="capability-wapper">
             <div className="row">
               <div className="col-xl-6">
                 <div className="case-thumb">
@@ -95,10 +93,7 @@ export const Case = () => {
                 </div>
               </div>
               <div className="col-xl-6">
-                <div
-                  className="info text-light"
-                  // style="background-image: url(assets/img/shape/banner-3.webp);"
-                >
+                <div className="info text-light">
                   <h2>Perform</h2>
                   <p>
                     We maximize energy plant performance using algorithms like
