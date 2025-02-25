@@ -282,7 +282,9 @@ function page() {
                 </div>
                 <div className="content">
                   <h4>
-                    <a href="service-details">Energy Forecasting </a>
+                    <a href="service-details">
+                      Energy <br /> Forecasting
+                    </a>
                   </h4>
                   <p>
                     Predict energy demand, reduce inefficiencies, and balance
@@ -301,7 +303,9 @@ function page() {
                 </div>
                 <div className="content">
                   <h4>
-                    <a href="service-details">Content Marketing</a>
+                    <a href="service-details">
+                      Content <br /> Marketing
+                    </a>
                   </h4>
                   <p>Comparison new entertain melancholy son themselves.</p>
                   <a href="service-details" className="icon-btn">
@@ -537,9 +541,9 @@ function page() {
                       </button>
                     </h2>
                     <div
-                      id="collapseFour"
+                      id="collapseFive"
                       className="accordion-collapse collapse"
-                      aria-labelledby="headingFour"
+                      aria-labelledby="headingFive"
                       data-bs-parent="#Expp"
                     >
                       <div className="accordion-body">
@@ -569,9 +573,9 @@ function page() {
                       </button>
                     </h2>
                     <div
-                      id="collapseFour"
+                      id="collapseSix"
                       className="accordion-collapse collapse"
-                      aria-labelledby="headingFour"
+                      aria-labelledby="headingSix"
                       data-bs-parent="#Expp"
                     >
                       <div className="accordion-body">
@@ -602,9 +606,9 @@ function page() {
                       </button>
                     </h2>
                     <div
-                      id="collapseFour"
+                      id="collapseSeven"
                       className="accordion-collapse collapse"
-                      aria-labelledby="headingFour"
+                      aria-labelledby="headingSeven"
                       data-bs-parent="#Expp"
                     >
                       <div className="accordion-body">
@@ -633,9 +637,9 @@ function page() {
                       </button>
                     </h2>
                     <div
-                      id="collapseFour"
+                      id="collapseEight"
                       className="accordion-collapse collapse"
-                      aria-labelledby="headingFour"
+                      aria-labelledby="headingEight"
                       data-bs-parent="#Expp"
                     >
                       <div className="accordion-body">

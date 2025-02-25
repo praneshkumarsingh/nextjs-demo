@@ -215,7 +215,7 @@ export const Testimonial = () => {
                 and cybersecurity solutions. The use of distributed databases
                 and serverless architectures means we experience low latency and
                 can easily scale up. Elile is truly the best partner for AI
-                solutions in the energy sector.
+                solutions.
               </p>
             </div>
             <div className="testimonial-head">
