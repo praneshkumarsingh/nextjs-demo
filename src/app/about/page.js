@@ -21,8 +21,7 @@ const page = () => {
             <div className="row">
               <div className="col-lg-8 ">
                 <nav className="woocommerce-breadcrumb" aria-label="Breadcrumb">
-                  <a href="https://wordpress.validthemes.net/dilabs">Home</a> /
-                  About Us
+                  <a href="./">Home</a> / About Us
                 </nav>
                 <h1 className="breadcumb-title">About Us</h1>
               </div>
@@ -62,16 +61,13 @@ const page = () => {
                   end literature. Gay direction neglected but supported yet her.
                 </p>
                 <div className="about-grid-info">
-                  <a
-                    href="https://wordpress.validthemes.net/dilabs/services-version-one/"
-                    className="btn-round-animation"
-                  >
+                  <a href="/" className="btn-round-animation">
                     Discover More <i className="fa-solid fa-arrow-right"></i>
                   </a>
                   <ul className="list-info-item list-unstyled">
                     <li>
                       <h4>
-                        <a href="https://wordpress.validthemes.net/dilabs/service-details/">
+                        <a href="/">
                           Design
                           <i className="fa-solid fa-angle-right"></i>
                         </a>
@@ -79,7 +75,7 @@ const page = () => {
                     </li>
                     <li>
                       <h4>
-                        <a href="https://wordpress.validthemes.net/dilabs/service-details/">
+                        <a href="/">
                           Digital Solution
                           <i className="fa-solid fa-angle-right"></i>
                         </a>
@@ -87,7 +83,7 @@ const page = () => {
                     </li>
                     <li>
                       <h4>
-                        <a href="https://wordpress.validthemes.net/dilabs/service-details/">
+                        <a href="/">
                           Strategy
                           <i className="fa-solid fa-angle-right"></i>
                         </a>
@@ -95,7 +91,7 @@ const page = () => {
                     </li>
                     <li>
                       <h4>
-                        <a href="https://wordpress.validthemes.net/dilabs/service-details/">
+                        <a href="/">
                           Branding
                           <i className="fa-solid fa-angle-right"></i>
                         </a>
@@ -240,9 +236,7 @@ const page = () => {
                     </div>
                     <div className="content">
                       <h4>
-                        <a href="https://wordpress.validthemes.net/dilabs/team-details/">
-                          James Baker
-                        </a>
+                        <a href="/">James Baker</a>
                       </h4>
                       <span>Marketing</span>
                     </div>
@@ -287,9 +281,7 @@ const page = () => {
                     </div>
                     <div className="content">
                       <h4>
-                        <a href="https://wordpress.validthemes.net/dilabs/team-details/">
-                          Dalton Grant
-                        </a>
+                        <a href="/">Dalton Grant</a>
                       </h4>
                       <span>Project Manager</span>
                     </div>
@@ -334,9 +326,7 @@ const page = () => {
                     </div>
                     <div className="content">
                       <h4>
-                        <a href="https://wordpress.validthemes.net/dilabs/team-details/">
-                          Ryan Ricketts
-                        </a>
+                        <a href="/">Ryan Ricketts</a>
                       </h4>
                       <span>Director</span>
                     </div>

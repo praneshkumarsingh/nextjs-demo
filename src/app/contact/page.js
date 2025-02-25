@@ -18,8 +18,7 @@ const page = () => {
             <div className="row">
               <div className="col-lg-8 ">
                 <nav className="woocommerce-breadcrumb" aria-label="Breadcrumb">
-                  <a href="https://wordpress.validthemes.net/dilabs">Home</a> /
-                  Contact Us
+                  <a href="/">Home</a> / Contact Us
                 </nav>
                 <h1 className="breadcumb-title">Contact Us</h1>
               </div>

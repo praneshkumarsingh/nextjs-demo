@@ -2,7 +2,7 @@ import React from "react";
 import "./page.css";
 import { GoArrowUpRight } from "react-icons/go";
 import { BsArrowRight } from "react-icons/bs";
-import { Testimonial } from "./components/testimonial";
+import { Testimonial } from "./components/Testimonial";
 
 function page() {
   return (

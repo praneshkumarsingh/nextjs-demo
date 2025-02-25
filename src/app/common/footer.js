@@ -120,7 +120,7 @@ const Footer = () => {
               <div className="col-lg-12">
                 <p className="mb-0">
                   Copyright 2025. All Rights Reserved by
-                  <a href="#" className="ms-2 text-primery">
+                  <a href="/" className="ms-2 text-primery">
                     ELILE AI.
                   </a>
                 </p>
