@@ -41,15 +41,16 @@ export const Capability = () => {
                 >
                   <h2>Predict</h2>
                   <p>
-                    Our predictive capabilities leverage AI models, including
-                    deep learning and probabilistic graphical models, to
-                    anticipate equipment failures and inefficiencies before they
-                    occur. We utilize advanced time-series forecasting and
-                    anomaly detection with data from high-frequency sensors and
-                    SCADA systems. Built on robust training datasets, our models
-                    enable real-time predictive maintenance with millisecond
-                    precision, continuously updating and dynamically
-                    recalibrating as new data streams in.
+                    Our predictive capabilities leverage AI models like deep
+                    learning, Bayesian networks, and probabilistic graphical
+                    models to anticipate failures before they occur. Using
+                    high-resolution time-series forecasting, federated learning,
+                    and anomaly detection, we process real-time data from SCADA,
+                    IoT sensors, and edge computing nodes. Built on
+                    domain-specific datasets, our models dynamically
+                    recalibrate, enabling millisecond-precision predictive
+                    maintenance while continuously improving failure
+                    classification and degradation modelling.
                   </p>
                 </div>
               </div>
@@ -68,16 +69,16 @@ export const Capability = () => {
                 <div className="info text-light">
                   <h2>Prevent</h2>
                   <p>
-                    We employ multi-agent systems and decentralized AI for
-                    autonomous management. We process data at the source for
-                    immediate anomaly detection. Reinforcement learning
-                    optimizes maintenance schedules by enhancing decision-making
-                    under uncertainty. We deploy digital twins for real-time
-                    simulations and proactive interventions, preventing
-                    cascading failures. Augmented with causal inference and
-                    correlations, we ensure coordinated responses across
-                    multiple assets, minimizing the risk of widespread
-                    disruptions.
+                    We employ decentralized AI and multi-agent reinforcement
+                    learning for autonomous energy management. Edge AI ensures
+                    ultra-low latency anomaly detection and rapid response.
+                    Reinforcement learning dynamically optimizes maintenance
+                    schedules based on probabilistic failure scenarios.
+                    AI-driven digital twins simulate real-time stress tests,
+                    enabling early interventions before failures cascade. With
+                    causal inference, cross-asset correlation analytics, and
+                    graph neural networks, we enhance infrastructure resilience
+                    while minimizing risk and downtime.
                   </p>
                 </div>
               </div>
@@ -96,15 +97,16 @@ export const Capability = () => {
                 <div className="info text-light">
                   <h2>Perform</h2>
                   <p>
-                    We maximize energy plant performance using algorithms like
-                    convex optimization, evolutionary algorithms, and neural
-                    network-based controllers. Our autonomous control systems
-                    employ model predictive control (MPC) for real-time
-                    adjustments, ensuring peak efficiency. We integrate
-                    distributed ledger technology (DLT) for secure energy
-                    transactions and decentralized management. Additionally,
-                    adaptive learning systems refine strategies with genetic
-                    algorithms and ensemble learning.
+                    We optimize energy infrastructure using convex optimization,
+                    deep reinforcement learning, and neural network-based
+                    predictive controllers. Model Predictive Control (MPC)
+                    ensures real-time operational adjustments, maximizing
+                    efficiency. Distributed Ledger Technology (DLT) secures
+                    energy transactions and decentralizes asset management.
+                    Genetic algorithms, ensemble learning, and swarm
+                    intelligence continuously refine optimization strategies,
+                    adapting dynamically to grid conditions and renewable energy
+                    variability.
                   </p>
                 </div>
               </div>

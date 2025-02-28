@@ -52,21 +52,23 @@ const Header = () => {
                   </Link>
                   <ul className="dropdown-menu">
                     <li>
-                      <Link className="dropdown-item" href="#">
-                        Action
+                      <Link className="dropdown-item" href="/service-details">
+                        Data Engineering
                       </Link>
                     </li>
                     <li>
-                      <Link className="dropdown-item" href="#">
-                        Another action
+                      <Link className="dropdown-item" href="/service-details">
+                        Monitoring & Alerting
                       </Link>
                     </li>
                     <li>
-                      <hr className="dropdown-divider" />
+                      <Link className="dropdown-item" href="/service-details">
+                        Diagnostics & Remediation
+                      </Link>
                     </li>
                     <li>
-                      <Link className="dropdown-item" href="#">
-                        Something else here
+                      <Link className="dropdown-item" href="/service-details">
+                        Performance Optimization
                       </Link>
                     </li>
                   </ul>
@@ -81,11 +83,11 @@ const Header = () => {
                     Our Expertise
                   </Link>
                 </li>
-                <li className="nav-item pe-0">
+                {/* <li className="nav-item pe-0">
                   <Link className="nav-link" aria-disabled="true" href="#">
                     Our Team
                   </Link>
-                </li>
+                </li> */}
               </ul>
               <div className="d-flex">
                 <Link

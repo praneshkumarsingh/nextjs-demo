@@ -430,7 +430,7 @@
   top: 50%;
   content: "";
   height: 1px;
-  left: 180px;
+  left: 225px;
   background: rgba(255, 255, 255, 0.4);
 }
 
@@ -473,7 +473,7 @@
   transition: all 0.35s ease-in-out;
   outline: medium none;
   text-decoration: none;
-  color: #04000b;
+  color: #084838;
   font-weight: 600;
 }
 

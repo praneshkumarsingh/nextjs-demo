@@ -68,21 +68,20 @@ const Footer = () => {
                     <li>
                       <div className="content">
                         <strong>Address:</strong>
-                        5919 Trussville Crossings Pkwy, Birmingham
+                        Elile AI Corporation, 251 Little <br />
+                        Falls Drive, Wilmington, DE 19808
                       </div>
                     </li>
                     <li>
                       <div className="content">
                         <strong>Email:</strong>
-                        <a href="mailto:info@validtheme.com">
-                          info@validtheme.com
-                        </a>
+                        <a href="mailto:info@elile.ai">info@elile.ai</a>
                       </div>
                     </li>
                     <li>
                       <div className="content">
                         <strong>Phone:</strong>
-                        <a href="tel:+12334598768">+123 34598768</a>
+                        <a href="tel:016174707070">+1 617.470.7070</a>
                       </div>
                     </li>
                   </ul>

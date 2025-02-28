@@ -3,6 +3,7 @@ import "./page.css";
 import { GoArrowUpRight } from "react-icons/go";
 import { BsArrowRight } from "react-icons/bs";
 import { Testimonial } from "./components/Testimonial";
+import Link from "next/link";
 
 function page() {
   return (
@@ -27,14 +28,14 @@ function page() {
                     for power grids, renewables, and industrial assets.
                   </p>
 
-                  <a href="" className="default-btn">
+                  <Link href="tel:016174707070" className="default-btn">
                     Schedule Call
                     <GoArrowUpRight />
-                  </a>
-                  <a href="#!" className="default-btn style-two ms-4">
+                  </Link>
+                  <Link href="/about" className="default-btn style-two ms-4">
                     Learn More
                     <BsArrowRight />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -54,7 +55,7 @@ function page() {
                     </div>
                     <div className="content">
                       <h5>Optimized Energy Flow</h5>
-                      <p>
+                      <p className="mb-0">
                         Aging grids and demand surges cause frequent
                         disruptions. AI-powered systems ensure seamless energy
                         generation, storage, and distribution, preventing
@@ -68,7 +69,7 @@ function page() {
                     </div>
                     <div className="content">
                       <h5>AI-Driven Interoperability</h5>
-                      <p>
+                      <p className="mb-0">
                         Fragmented energy assets lead to operational silos. Our
                         AI-powered platform creates a unified control layer for
                         real-time data exchange and intelligent automation.
@@ -303,11 +304,12 @@ function page() {
                 </div>
                 <div className="content">
                   <h4>
-                    <a href="service-details">
-                      Content <br /> Marketing
-                    </a>
+                    <a href="service-details">AI Strategy & Implementation</a>
                   </h4>
-                  <p>Comparison new entertain melancholy son themselves.</p>
+                  <p>
+                    Customized AI-driven frameworks and scalable deployment
+                    strategies.
+                  </p>
                   <a href="service-details" className="icon-btn">
                     <i className="fas fa-arrow-right"></i>
                   </a>
@@ -322,10 +324,10 @@ function page() {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-5 text-center">
-              {/* <h5 className="sub-title">Our Sponsor</h5> */}
               <h3 className="title">
-                Dependable Feedback <br />
-                Marketing Departments.
+                Trusted by
+                <br />
+                global industry leaders
               </h3>
             </div>
           </div>
@@ -371,9 +373,9 @@ function page() {
           <div className="row justify-content-center">
             <div className="col-lg-8 text-center">
               <h3 className="title">
-                Trusted by global industry leaders <br />
+                Here’s what they say <br />
                 <img src="/img/testimonial/author.png" className="img-fluid" />
-                Here’s what they say about us!
+                about us!
               </h3>
             </div>
           </div>

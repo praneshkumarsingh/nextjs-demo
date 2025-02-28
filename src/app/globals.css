@@ -438,3 +438,31 @@ footer .widget-title {
   overflow: inherit;
   background: linear-gradient(53deg, #084838, #37b984);
 }
+
+
+.dropdown-menu {
+  width: 300px;
+  padding: 20px 10px !important;
+  background: #FFFFFF none repeat scroll 0 0;
+  border: 1px solid transparent !important;
+  border-radius: 2px !important;
+  box-shadow: 0 5px 50px 0 rgba(0, 0, 0, 0.15);
+
+}
+
+.dropdown-item {
+  color: #084838 !important;
+  display: block;
+  font-size: 15px;
+  margin-bottom: 0;
+  padding: 7px 15px !important;
+  text-transform: capitalize;
+  width: 100% !important;
+  font-weight: 700 !important;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+  color: #084838 !important;
+  background-color: transparent !important;
+}
