@@ -1,241 +1,234 @@
-.service-tab-wrap {
-  border-radius: 20px 0px 0px 20px;
-  background: #084838;
-  height: 100%;
-  padding: 50px 70px 40px;
-}
-
-@media (max-width: 1199px) {
-  .service-tab-wrap {
-    border-radius: 20px 20px 0 0;
-  }
-}
-
-@media (max-width: 767px) {
-  .service-tab-wrap {
-    padding: 65px 50px 70px;
-  }
-}
-
-@media (max-width: 480px) {
-  .service-tab-wrap {
-    padding: 45px 35px 50px;
-  }
-}
-
-.service-tab-content {
-  margin-top: 51px;
-}
-
-@media (max-width: 480px) {
-  .service-tab-content {
-    margin-top: 51px;
-  }
-}
-
-.service-tab-content-title {
-  color: #FFF;
-  font-size: 34px;
-  font-weight: 700;
-  line-height: 1.17;
-  letter-spacing: -1.02px;
-  margin-bottom: 20px;
-}
-
-@media (max-width: 480px) {
-  .service-tab-content-title {
-    font-size: 22px;
-  }
-}
-
-.service-tab-content p {
-  color: rgba(255, 255, 255, 0.7);
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 24px;
-  margin-bottom: 30px;
-}
-
-.service-tab-top {
-  border: none !important;
-  display: flex !important;
-  align-items: center !important;
-  column-gap: 40px !important;
-  row-gap: 10px !important;
-}
-
-@media (max-width: 767px) {
-  .service-tab-top {
-    column-gap: 25px;
-  }
-}
-
-.service-tab-top .nav-link {
-  color: rgba(255, 255, 255, 0.5) !important;
-  font-size: 13px;
-  font-weight: 600;
-  text-transform: uppercase;
-  display: block;
-  padding: 0;
-  border: none !important;
-}
-
-.service-tab-top .nav-link:hover {
+.choose-us-style-two .title {
+  font-weight: 800;
+  font-size: 42px;
+  line-height: 1.3;
   color: #fff;
-  text-decoration: underline;
+}
+
+ul.check-list-item {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul.check-list-item li {
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-bottom: 2px solid #fff;
+  position: relative;
+  z-index: 1;
+  padding-left: 75px;
+}
+
+ul.check-list-item li:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
   border: none;
 }
 
-.service-tab-top .nav-link.active {
-  color: #fff !important;
-  text-decoration: underline;
-  background-color: transparent !important;
+ul.check-list-item li h5 {
+  font-weight: 700;
+  margin-bottom: 10px;
 }
 
-.service-tab-img {
-  border-radius: 0px 20px 20px 0px;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+ul.check-list-item li h4 {
+  font-weight: 700;
+  color: #fff;
 }
 
-@media (max-width: 1199px) {
-  .service-tab-img {
-    border-radius: 0 0 20px 20px;
+ul.check-list-item li p {
+  margin: 0;
+  color: #fff;
+}
+
+.bg-dark ul.check-list-item li p {
+  opacity: 0.9;
+}
+
+ul.check-list-item li::after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  content: "\f00c";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  line-height: 50px;
+  background: linear-gradient(180deg, #B8E2FA 0%, #FFE788 100%);
+
+  border-radius: 50%;
+}
+
+.choose-us-style-two-thumb .curve-text svg {
+  position: absolute;
+  left: -58px;
+  top: 100px;
+}
+
+.curve-text svg {
+  fill: #fff;
+  height: 170px;
+  width: 170px;
+  overflow: inherit;
+  animation: spinner 20s infinite linear;
+  text-shadow: 1px 1px #000000;
+}
+
+.curve-text svg path {
+  fill: none;
+}
+
+.curve-text svg text {
+  fill: #fff;
+  letter-spacing: 4px;
+}
+
+.choose-us-style-two-thumb {
+  position: relative;
+  bottom: -120px;
+  margin-top: -120px;
+}
+
+h2.text-path {
+  font-size: 80px;
+  color: transparent;
+  -webkit-text-stroke: 1px #fff;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 1;
+  margin-bottom: 50px;
+}
+
+.choose-us-style-two-thumb h4 {
+  font-weight: 700;
+  font-size: 24px;
+  color: #fff;
+}
+
+.service-about {
+  background: #084838;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  margin-bottom: 80px;
+}
+
+/*Preloader Spiner Animation */
+@-webkit-keyframes spinner {
+  to {
+    -webkit-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
   }
 }
 
-.advantage-wrap {
-  padding: 40px 35px 35px;
-  border-radius: 14px;
-  background: #fff;
-  transition: all 0.3s linear 0s;
-  margin-bottom: 30px;
+@keyframes spinner {
+  to {
+    -webkit-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+  }
 }
 
-.service-advantage-title {
-  color: #084838;
-  font-weight: 600;
-  margin-bottom: 24px;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0;
+
+.whyChoose-btn .default-btn {
+  padding: 12px 24px;
 }
 
-.advantage-wrap p {
-  transition: all 0.35s ease-in-out;
-  color: #666666;
-  margin: 0 0 15px;
-  text-transform: none;
-  font-weight: 500;
-  line-height: 1.7;
+.whyChoose-caption {
+  position: sticky;
+  top: 8rem;
+  z-index: 1021;
 }
 
-.service-advantage {
+.whyChooseSec {
   background: #F3F8F4;
   padding: 60px 0px;
 }
 
-
-/* -------------- Why Us Style -----------*/
-
-.achivement-counter {
-  display: block;
-  padding: 62px;
-  border-radius: 10px;
-  background-size: cover;
-  background-position: center;
-  position: relative;
-  z-index: 1;
-  background-image: linear-gradient(53deg, #9ccb26, #37b984);
+.whyChooseSec-box {
+  padding: 40px 35px 35px;
+  border-radius: 14px;
+  background: #fff;
+  backdrop-filter: blur(2px);
+  margin-bottom: 20px;
 }
 
-.achivement-counter li {
-  display: flex;
-  margin-top: 30px;
-  border-top: 1px solid rgba(255, 255, 255, 0.4);
-  padding-top: 30px;
-  line-height: 1.7;
-}
-
-.achivement-counter li .icon {
-  display: block;
-  margin-right: 30px;
-  height: 100px;
-  width: 100px;
-  text-align: center;
-  line-height: 100px;
-  background: linear-gradient(108.44deg, rgba(255, 255, 255, 0.1) 20.99%, rgba(255, 255, 255, 0.025) 84.05%);
-  border-radius: 50%;
-  border: 2px solid rgba(255, 255, 255, 0.14);
-  box-shadow: 0px 10px 51px rgba(0, 0, 0, 0.5);
-}
-
-.achivement-counter li .icon img {
-  max-width: 55px;
-  filter: brightness(0) invert(1);
-}
-
-.achivement-counter .fun-fact .counter {
-  color: #fff;
-  font-size: 60px;
+.whyChooseSec-box h3 {
+  color: #084838;
+  font-size: 24px;
   font-weight: 600;
-  margin-bottom: 10px;
-}
-
-.fun-fact .counter {
-  position: relative;
+  line-height: 32px;
   display: flex;
   align-items: center;
-  font-size: 60px;
-  font-weight: 800;
-  line-height: 1;
-  margin-bottom: 5px;
+  gap: 20px;
 }
 
-.achivement-counter .fun-fact .medium {
-  color: #fff;
-  font-weight: 600;
+.whyChooseSec-box h3 img {
+  filter: brightness(0) saturate(100%) invert(21%) sepia(84%) saturate(527%) hue-rotate(137deg) brightness(93%) contrast(92%);
 }
 
-.achivement-counter li:first-child {
-  margin: 0;
-  padding: 0;
-  border: none;
+
+.whyChooseSec-box p {
+  color: #666666;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
 }
 
-.list-check {
-  margin-top: 30px;
-  padding-left: 0;
-  list-style: none;
+.benfit-list ul li {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.benfit-list ul li .icon {
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  line-height: 50px;
+  background-image: linear-gradient(53deg, #9ccb26, #37b984);
+  border-radius: 50%;
+}
+
+.benfit-list ul li .text h3 {
+  color: #084838;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
   margin-bottom: 0;
 }
 
-.list-check li:first-child {
-  margin-top: 0;
+.benfit-inner {
+  margin-top: 60px;
 }
 
-.list-check li {
-  color: #04000b;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 1.6;
-  padding-left: 0px;
-  margin-top: 10px;
+.cta-inner {
+  background-color: #F3F8F4;
+  padding: 70px 0px;
+  border-radius: 20px;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-image: url(/img/notice-shape.webp);
+  background-size: contain;
 }
 
-.list-check li span {
-  display: inline-block;
-  height: 20px;
-  width: 20px;
-  line-height: 18px;
-  border: 1px solid;
-  text-align: center;
-  border-radius: 5px;
-  margin-right: 12px;
+.cta-inner .default-btn.style-two {
+  background: #fff;
+  border: 1px solid #084838;
+  color: #084838;
 }
 
-.list-check li span i {
-  font-size: 14px;
+.cta-inner h2 {
+  color: #084838;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+.cta-inner .desc {
+  font-size: 18px;
+  padding: 30px 0px;
+  margin-bottom: 0px;
 }

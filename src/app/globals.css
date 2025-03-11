@@ -41,6 +41,7 @@ a {
   letter-spacing: 0.32px;
   padding: 13px 22px;
   border-radius: 32px;
+  display: inline-block;
 }
 
 .default-btn.style-two {
