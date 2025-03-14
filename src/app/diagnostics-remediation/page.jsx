@@ -1,7 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import ControlledTabsExample from "../components/DataEngineeringTab";
-import "./page.css";
+import DiagnosticsTab from "../components/DiagnosticsTab";
 
 const Page = () => {
   return (
@@ -34,7 +33,7 @@ const Page = () => {
           <div className="row">
             <div className="col-lg-6">
               <div className="service-tab-wrap">
-                <ControlledTabsExample />
+                <DiagnosticsTab />
               </div>
             </div>
             <div className="col-lg-6">
