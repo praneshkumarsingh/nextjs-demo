@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import ControlledTabsExample from "../components/ServiceTab";
+import ControlledTabsExample from "../components/DataEngineeringTab";
 import "./page.css";
 
 const Page = () => {

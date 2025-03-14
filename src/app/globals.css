@@ -25,6 +25,10 @@ a {
   text-decoration: none !important;
 }
 
+.navbar-nav .nav-link.show {
+  color: #fff !important;
+}
+
 .bg-green {
   background-color: #084838 !important;
 }
@@ -223,7 +227,6 @@ nav.woocommerce-breadcrumb a {
   border-radius: 10px;
   background-color: #FFF;
   box-shadow: 0px 5px 20px rgba(27, 42, 82, 0.05);
-  margin-bottom: 30px;
 }
 
 .faq-content .accordion-button::after {
@@ -466,4 +469,246 @@ footer .widget-title {
 .dropdown-item:hover {
   color: #084838 !important;
   background-color: transparent !important;
+}
+
+/* <=============== Energy Efficiency Page Style ==================> */
+
+.service-tab-wrap {
+  border-radius: 20px 0px 0px 20px;
+  background: #084838;
+  padding: 50px 70px 40px;
+}
+
+@media (max-width: 1199px) {
+  .service-tab-wrap {
+    border-radius: 20px 20px 0 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .service-tab-wrap {
+    padding: 65px 50px 70px;
+  }
+}
+
+@media (max-width: 480px) {
+  .service-tab-wrap {
+    padding: 45px 35px 50px;
+  }
+}
+
+.service-tab-content {
+  margin-top: 40px;
+}
+
+@media (max-width: 480px) {
+  .service-tab-content {
+    margin-top: 40px;
+  }
+}
+
+.service-tab-content-title {
+  color: #FFF;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: -1.02px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 480px) {
+  .service-tab-content-title {
+    font-size: 22px;
+  }
+}
+
+.service-tab-content p {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 0px;
+}
+
+.service-tab-top {
+  border: none !important;
+  display: flex !important;
+  align-items: center !important;
+  column-gap: 40px !important;
+  row-gap: 10px !important;
+}
+
+@media (max-width: 767px) {
+  .service-tab-top {
+    column-gap: 25px;
+  }
+}
+
+.service-tab-top .nav-link {
+  color: rgba(255, 255, 255, 0.5) !important;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  display: block;
+  padding: 0;
+  border: none !important;
+}
+
+.service-tab-top .nav-link:hover {
+  color: #fff;
+  text-decoration: underline;
+  border: none;
+}
+
+.service-tab-top .nav-link.active {
+  color: #fff !important;
+  text-decoration: underline;
+  background-color: transparent !important;
+}
+
+.service-tab-img {
+  border-radius: 0px 20px 20px 0px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 1199px) {
+  .service-tab-img {
+    border-radius: 0 0 20px 20px;
+  }
+}
+
+.advantage-wrap {
+  padding: 40px 35px 35px;
+  border-radius: 14px;
+  background: #fff;
+  transition: all 0.3s linear 0s;
+  margin-bottom: 30px;
+}
+
+.service-advantage-title {
+  color: #084838;
+  font-weight: 600;
+  margin-bottom: 24px;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0;
+}
+
+.advantage-wrap p {
+  transition: all 0.35s ease-in-out;
+  color: #666666;
+  margin: 0 0 15px;
+  text-transform: none;
+  font-weight: 500;
+  line-height: 1.7;
+}
+
+.service-advantage {
+  background: #F3F8F4;
+  padding: 60px 0px;
+}
+
+
+/* -------------- Why Us Style -----------*/
+
+.achivement-counter {
+  display: block;
+  padding: 62px;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 1;
+  background-image: linear-gradient(53deg, #9ccb26, #37b984);
+}
+
+.achivement-counter li {
+  display: flex;
+  margin-top: 30px;
+  border-top: 1px solid rgba(255, 255, 255, 0.4);
+  padding-top: 30px;
+  line-height: 1.7;
+}
+
+.achivement-counter li .icon {
+  display: block;
+  margin-right: 30px;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  line-height: 100px;
+  background: linear-gradient(108.44deg, rgba(255, 255, 255, 0.1) 20.99%, rgba(255, 255, 255, 0.025) 84.05%);
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.14);
+  box-shadow: 0px 10px 51px rgba(0, 0, 0, 0.5);
+}
+
+.achivement-counter li .icon img {
+  max-width: 55px;
+  filter: brightness(0) invert(1);
+}
+
+.achivement-counter .fun-fact .counter {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.fun-fact .counter {
+  position: relative;
+  display: flex;
+  align-items: center;
+  font-size: 60px;
+  font-weight: 800;
+  line-height: 1;
+  margin-bottom: 5px;
+}
+
+.achivement-counter .fun-fact .medium {
+  color: #fff;
+  font-weight: 600;
+}
+
+.achivement-counter li:first-child {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.list-check {
+  margin-top: 30px;
+  padding-left: 0;
+  list-style: none;
+  margin-bottom: 0;
+}
+
+.list-check li:first-child {
+  margin-top: 0;
+}
+
+.list-check li {
+  color: #04000b;
+  font-weight: 500;
+  line-height: 1.6;
+  padding-left: 0px;
+  margin-top: 10px;
+}
+
+.list-check li span {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  line-height: 18px;
+  border: 1px solid;
+  text-align: center;
+  border-radius: 5px;
+  margin-right: 12px;
+}
+
+.list-check li span i {
+  font-size: 14px;
 }

@@ -19,13 +19,15 @@ function page() {
               <div className="col-lg-9">
                 <div className="home-content text-center">
                   <span className="sub-title">
-                    Advanced AI-POWERED ENERGY Solutions
+                    AI-POWERED OPERATIONS FOR TRUE AUTONOMY
                   </span>
-                  <h1>Smarter, Faster & More Efficient Energy Management </h1>
+                  <h1>
+                    Go Beyond Automation with Elile’s Agentic AI Solutions
+                  </h1>
                   <p className="mb-5">
-                    Robust AI-powered energy solutions to predict failures,
-                    optimize performance, and enable real-time decision-making
-                    for power grids, renewables, and industrial assets.
+                    Elile builds self-learning, multi-agentic AI models that
+                    predict, adapt, and optimize in real time, delivering
+                    reliable performance across mission-critical operations.
                   </p>
 
                   <Link href="tel:016174707070" className="default-btn">
@@ -54,12 +56,15 @@ function page() {
                       <i className="fa-solid fa-check"></i>
                     </div>
                     <div className="content">
-                      <h5>Optimized Energy Flow</h5>
+                      <h5>
+                        Solving Industrial <br />
+                        Inefficiencies
+                      </h5>
                       <p className="mb-0">
-                        Aging grids and demand surges cause frequent
-                        disruptions. AI-powered systems ensure seamless energy
-                        generation, storage, and distribution, preventing
-                        failures.
+                        Traditional models lack adaptability, creating data
+                        silos & operational blind spots. Without real-time
+                        intelligence, failures go undetected, leading to delays
+                        & rising costs.
                       </p>
                     </div>
                   </li>
@@ -68,11 +73,14 @@ function page() {
                       <i className="fa-solid fa-check"></i>
                     </div>
                     <div className="content">
-                      <h5>AI-Driven Interoperability</h5>
+                      <h5>
+                        From Automation to <br />
+                        Autonomy
+                      </h5>
                       <p className="mb-0">
-                        Fragmented energy assets lead to operational silos. Our
-                        AI-powered platform creates a unified control layer for
-                        real-time data exchange and intelligent automation.
+                        Elile’s multi-agentic intelligence enables real-time
+                        collaboration, eliminating inefficiencies, predicting
+                        failures, and ensuring autonomous operations.
                       </p>
                     </div>
                   </li>
@@ -82,9 +90,9 @@ function page() {
             <div className="col-lg-8">
               <div className="story-title">
                 <h3>
-                  Resilient energy infrastructure
+                  From inefficiency to performance
                   <br />
-                  With <span>AI</span> in energy
+                  <span> With the best</span> of AI
                 </h3>
               </div>
 
@@ -92,15 +100,15 @@ function page() {
                 <video className="video-live" autoPlay loop muted>
                   <source src="/video.mp4" type="video/mp4" />
                 </video>
-                <a
-                  href="#"
+                <Link
+                  href="/"
                   className="popup-youtube video-play-button with-text"
                 >
                   <div className="effect"></div>
                   <span>
                     <i className="fa-solid fa-play"></i> OUR STORY
                   </span>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -152,14 +160,16 @@ function page() {
               <div className="align-self-center">
                 <div className="choose-caption">
                   <h2 className="title">
-                    Pioneering AI in energy <br />
-                    infrastructure & data centers
+                    Pioneering multi-agent AI <br />
+                    for truly autonomous operations
                   </h2>
                   <p className="desc">
-                    Elile AI delivers custom, dynamic AI-powered dashboard
-                    solutions that monitor, predict, and optimize asset
-                    performance across Solar PV, Wind Farms, Sea Water Reverse
-                    Osmosis, Gas Turbines, and Data Centers.
+                    Elile builds LLM-powered, agentic AI systems for predictive
+                    intelligence, autonomous decision-making, and real-time
+                    optimization. Our AI-driven dashboards integrate digital
+                    twins and self-healing capabilities to eliminate
+                    inefficiencies and predict failures in mission-critical
+                    industries.
                   </p>
                   <ul className="list-check">
                     <li>
@@ -194,10 +204,10 @@ function page() {
             <div className="col-lg-6">
               <div className="service-caption">
                 <h2 className="title">
-                  Possibilities with reliability as a service
+                  Possibilities with autonomous AI systems
                 </h2>
                 <div className="service-btn">
-                  <a href="#!">Explore More</a>
+                  <Link href="#!">Explore More</Link>
                 </div>
               </div>
             </div>
@@ -208,15 +218,15 @@ function page() {
                 </div>
                 <div className="content">
                   <h4>
-                    <a href="service-details">Data Engineering </a>
+                    <Link href="service-details">Agentic AI Solutions </Link>
                   </h4>
                   <p>
-                    Seamless integration and processing of diverse energy data
-                    sources.
+                    Deploy interconnected AI agents that collaborate,
+                    strategize, and optimize.
                   </p>
-                  <a href="service-details" className="icon-btn">
+                  <Link href="service-details" className="icon-btn">
                     <i className="fas fa-arrow-right"></i>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -227,15 +237,15 @@ function page() {
                 </div>
                 <div className="content">
                   <h4>
-                    <a href="service-details">Monitoring & Alerting </a>
+                    <Link href="service-details">Autonomous Operations</Link>
                   </h4>
                   <p>
-                    Real-time analytics and predictive alerts for asset
-                    performance.
+                    AI solutions to eliminate inefficiencies and reduce human
+                    intervention.
                   </p>
-                  <a href="service-details" className="icon-btn">
+                  <Link href="service-details" className="icon-btn">
                     <i className="fas fa-arrow-right"></i>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -246,15 +256,17 @@ function page() {
                 </div>
                 <div className="content">
                   <h4>
-                    <a href="service-details">Diagnostics & Remediation</a>
+                    <Link href="service-details">
+                      AI- Driven Adaptive Systems
+                    </Link>
                   </h4>
                   <p>
-                    AI-driven fault detection, root cause analysis, and
-                    automated fixes.
+                    Solutions that evolve with real-time data and changing
+                    operational conditions.
                   </p>
-                  <a href="service-details" className="icon-btn">
+                  <Link href="service-details" className="icon-btn">
                     <i className="fas fa-arrow-right"></i>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -265,14 +277,17 @@ function page() {
                 </div>
                 <div className="content">
                   <h4>
-                    <a href="service-details">Performance Optimization</a>
+                    <Link href="service-details">
+                      Predictive Alerts & Fault Prevention
+                    </Link>
                   </h4>
                   <p>
-                    Self-healing systems and AI-driven efficiency improvements.
+                    Proactive anomaly detection, reducing failures and
+                    maximizing asset lifespan.
                   </p>
-                  <a href="service-details" className="icon-btn">
+                  <Link href="service-details" className="icon-btn">
                     <i className="fas fa-arrow-right"></i>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -283,17 +298,17 @@ function page() {
                 </div>
                 <div className="content">
                   <h4>
-                    <a href="service-details">
-                      Energy <br /> Forecasting
-                    </a>
+                    <Link href="service-details">
+                      Critical Industrial & Energy Systems
+                    </Link>
                   </h4>
                   <p>
-                    Predict energy demand, reduce inefficiencies, and balance
-                    grid loads.
+                    Solutions for data centers, renewable energy, and
+                    mission-critical industries.
                   </p>
-                  <a href="service-details" className="icon-btn">
+                  <Link href="service-details" className="icon-btn">
                     <i className="fas fa-arrow-right"></i>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -304,15 +319,15 @@ function page() {
                 </div>
                 <div className="content">
                   <h4>
-                    <a href="service-details">AI Strategy & Implementation</a>
+                    <Link href="service-details">AI Strategy & Deployment</Link>
                   </h4>
                   <p>
-                    Customized AI-driven frameworks and scalable deployment
-                    strategies.
+                    AI products built for large-scale scalability, and
+                    measurable industry impact.
                   </p>
-                  <a href="service-details" className="icon-btn">
+                  <Link href="service-details" className="icon-btn">
                     <i className="fas fa-arrow-right"></i>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -402,7 +417,7 @@ function page() {
             <div className="col-lg-8">
               <div className="faq-content">
                 <div className="accordion" id="Expp">
-                  <div className="accordion-item mb-30">
+                  <div className="accordion-item mb-4">
                     <h2 className="accordion-header" id="headingOne">
                       <button
                         className="accordion-button"
@@ -412,7 +427,8 @@ function page() {
                         aria-expanded="true"
                         aria-controls="collapseOne"
                       >
-                        How do AI-powered energy solutions work?
+                        What makes Elile different from traditional AI
+                        solutions?
                       </button>
                     </h2>
                     <div
@@ -423,19 +439,18 @@ function page() {
                     >
                       <div className="accordion-body">
                         <p>
-                          AI-powered energy solutions leverage Artificial
-                          Intelligence in the energy industry to enhance grid
-                          reliability, optimize energy use, and prevent
-                          failures. These solutions use Digital Twins,
-                          Distributed Systems, and Multi-Agent AI to analyze
-                          real-time data, predict faults, and autonomously
-                          optimize performance, reducing energy waste and
-                          improving efficiency.
+                          Elile moves beyond dashboards and analytics. Static AI
+                          models analyze data - Elile acts on it. Unlike
+                          traditional AI, which relies on human input, our
+                          multi-agentic AI enables real-time decision-making,
+                          adaptive control, and autonomous fault prevention.
+                          This unlocks self-optimization, seamless coordination,
+                          and human-free decision-making.
                         </p>
                       </div>
                     </div>
                   </div>
-                  <div className="accordion-item mb-30">
+                  <div className="accordion-item mb-4">
                     <h2 className="accordion-header" id="headingTwo">
                       <button
                         className="accordion-button collapsed"
@@ -445,13 +460,75 @@ function page() {
                         aria-expanded="false"
                         aria-controls="collapseTwo"
                       >
-                        Does AI improve energy efficiency in large-scale infra?
+                        How does multi-agentic AI enhance industrial operations?
                       </button>
                     </h2>
                     <div
                       id="collapseTwo"
                       className="accordion-collapse collapse"
                       aria-labelledby="headingTwo"
+                      data-bs-parent="#Expp"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Multi-agentic AI uses a network of intelligent agents
+                          that communicate and coordinate actions across complex
+                          systems. This ensures faster problem resolution,
+                          improved efficiency, and seamless adaptability in
+                          real-time.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item mb-4">
+                    <h2 className="accordion-header" id="headingThree">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree"
+                        aria-expanded="false"
+                        aria-controls="collapseThree"
+                      >
+                        Can Elile integrate with existing industrial
+                        infrastructure?
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseThree"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="headingThree"
+                      data-bs-parent="#Expp"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Yes. Elile’s AI solutions seamlessly integrate with
+                          legacy systems, SCADA architectures, and IoT
+                          frameworks. Our proprietary AI works alongside
+                          existing control systems, ensuring smooth
+                          adoption.ontinuous uptime and optimized energy
+                          distribution.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item mb-4">
+                    <h2 className="accordion-header" id="headingFour">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseFour"
+                        aria-expanded="false"
+                        aria-controls="collapseFour"
+                      >
+                        Does AI improve energy efficiency in large-scale infra?
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseFour"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="headingFour"
                       data-bs-parent="#Expp"
                     >
                       <div className="accordion-body">
@@ -466,23 +543,23 @@ function page() {
                       </div>
                     </div>
                   </div>
-                  <div className="accordion-item mb-30">
-                    <h2 className="accordion-header" id="headingThree">
+                  <div className="accordion-item mb-4">
+                    <h2 className="accordion-header" id="headingFive">
                       <button
                         className="accordion-button collapsed"
                         type="button"
                         data-bs-toggle="collapse"
-                        data-bs-target="#collapseThree"
+                        data-bs-target="#collapseFive"
                         aria-expanded="false"
-                        aria-controls="collapseThree"
+                        aria-controls="collapseFive"
                       >
                         What is Reliability as a Service (RaaS)?
                       </button>
                     </h2>
                     <div
-                      id="collapseThree"
+                      id="collapseFive"
                       className="accordion-collapse collapse"
-                      aria-labelledby="headingThree"
+                      aria-labelledby="headingFive"
                       data-bs-parent="#Expp"
                     >
                       <div className="accordion-body">
@@ -498,23 +575,23 @@ function page() {
                       </div>
                     </div>
                   </div>
-                  <div className="accordion-item mb-30">
-                    <h2 className="accordion-header" id="headingFour">
+                  <div className="accordion-item mb-4">
+                    <h2 className="accordion-header" id="headingSix">
                       <button
                         className="accordion-button collapsed"
                         type="button"
                         data-bs-toggle="collapse"
-                        data-bs-target="#collapseFour"
+                        data-bs-target="#collapseSix"
                         aria-expanded="false"
-                        aria-controls="collapseFour"
+                        aria-controls="collapseSix"
                       >
                         How does AI support renewable energy systems?
                       </button>
                     </h2>
                     <div
-                      id="collapseFour"
+                      id="collapseSix"
                       className="accordion-collapse collapse"
-                      aria-labelledby="headingFour"
+                      aria-labelledby="headingSix"
                       data-bs-parent="#Expp"
                     >
                       <div className="accordion-body">
@@ -529,71 +606,7 @@ function page() {
                       </div>
                     </div>
                   </div>
-                  <div className="accordion-item mb-30">
-                    <h2 className="accordion-header" id="headingFive">
-                      <button
-                        className="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#collapseFive"
-                        aria-expanded="false"
-                        aria-controls="collapseFive"
-                      >
-                        Can AI reduce downtime and prevent failures?
-                      </button>
-                    </h2>
-                    <div
-                      id="collapseFive"
-                      className="accordion-collapse collapse"
-                      aria-labelledby="headingFive"
-                      data-bs-parent="#Expp"
-                    >
-                      <div className="accordion-body">
-                        <p>
-                          Yes. Our AI-driven self-healing systems predict
-                          failures before they happen, enabling proactive
-                          diagnostics, real-time root cause analysis (RCA), and
-                          automated remediation. This significantly reduces
-                          downtime, enhances asset lifespan, and maintains an
-                          uninterrupted energy supply.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="accordion-item mb-30">
-                    <h2 className="accordion-header" id="headingSix">
-                      <button
-                        className="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#collapseSix"
-                        aria-expanded="false"
-                        aria-controls="collapseSix"
-                      >
-                        How does Elile AI ensure interoperability across energy
-                        ecosystems?
-                      </button>
-                    </h2>
-                    <div
-                      id="collapseSix"
-                      className="accordion-collapse collapse"
-                      aria-labelledby="headingSix"
-                      data-bs-parent="#Expp"
-                    >
-                      <div className="accordion-body">
-                        <p>
-                          Elile AI’s intelligent energy management system
-                          seamlessly integrates with OEMs, EPCs, and O&M
-                          partners, ensuring compatibility across diverse energy
-                          assets. Our multi-agent AI architecture enables energy
-                          operators to monitor, optimize, and automate processes
-                          across hybrid infrastructures, from legacy grids to
-                          modern AI-driven smart networks.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="accordion-item mb-30">
+                  <div className="accordion-item mb-4">
                     <h2 className="accordion-header" id="headingSeven">
                       <button
                         className="accordion-button collapsed"
@@ -603,8 +616,7 @@ function page() {
                         aria-expanded="false"
                         aria-controls="collapseSeven"
                       >
-                        What industries can benefit from AI-powered energy
-                        solutions?
+                        Can AI reduce downtime and prevent failures?
                       </button>
                     </h2>
                     <div
@@ -615,17 +627,17 @@ function page() {
                     >
                       <div className="accordion-body">
                         <p>
-                          Our AI-powered energy solutions cater to a wide range
-                          of industries, including Data Centers, Industrial
-                          Manufacturing, Petrochemical Plants, and Smart Cities.
-                          Any industry reliant on energy-intensive operations
-                          can benefit from our solutions to improve performance
-                          and sustainability.
+                          Yes. Our AI-driven self-healing systems predict
+                          failures before they happen, enabling proactive
+                          diagnostics, real-time root cause analysis (RCA), and
+                          automated remediation. This significantly reduces
+                          downtime, enhances asset lifespan, and maintains
+                          uninterrupted energy supply.
                         </p>
                       </div>
                     </div>
                   </div>
-                  <div className="accordion-item mb-30">
+                  <div className="accordion-item mb-4">
                     <h2 className="accordion-header" id="headingEight">
                       <button
                         className="accordion-button collapsed"
@@ -635,7 +647,7 @@ function page() {
                         aria-expanded="false"
                         aria-controls="collapseEight"
                       >
-                        How does Elile leverage AI in energy industry?
+                        What industries can benefit from AI-powered solutions?
                       </button>
                     </h2>
                     <div
@@ -646,10 +658,75 @@ function page() {
                     >
                       <div className="accordion-body">
                         <p>
-                          Elile AI’s proprietary technology, ElectrOS, is an
+                          Elile’s AI-powered solutions cater to a wide range of
+                          industries, including Data Centers, Renewable Energy,
+                          Industrial Manufacturing, Petrochemical Plants, Smart
+                          Cities, Healthcare Facilities, Government Projects,
+                          etc. Any industry reliant on intensive operations can
+                          benefit from our solutions to improve performance and
+                          reliability.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item mb-4">
+                    <h2 className="accordion-header" id="headingNine">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseNine"
+                        aria-expanded="false"
+                        aria-controls="collapseNine"
+                      >
+                        How does Elile ensure interoperability across energy
+                        ecosystems?
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseNine"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="headingNine"
+                      data-bs-parent="#Expp"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Elile’s intelligent energy management system
+                          seamlessly integrates with OEMs, EPCs, and O&M
+                          partners, ensuring compatibility across diverse energy
+                          assets. Our multi-agent AI architecture enables energy
+                          operators to monitor, optimize, and automate processes
+                          across hybrid infrastructures, from legacy grids to
+                          modern AI-driven smart networks.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header" id="headingTen">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseTen"
+                        aria-expanded="false"
+                        aria-controls="collapseTen"
+                      >
+                        How does Elile leverages AI in energy industry
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseTen"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="headingTen"
+                      data-bs-parent="#Expp"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Elile’s proprietary technology, ElectrOS, is an
                           advanced AI-driven operating system designed to
-                          resolve challenges of the energy sector. It is
-                          engineered to collect data, control systems, detect
+                          resolve challenges of all sectors including energy. It
+                          is engineered to collect data, control systems, detect
                           faults and anomalies, optimize algorithms and manage
                           energy resources efficiently. With self-learning
                           algorithms and autonomous decision-making, it prevents

@@ -10,8 +10,8 @@ const Footer = () => {
                 <div className="footer-about">
                   <img src="/img/logo-white.webp" className="img-fluid logo" />
                   <p>
-                    AI for energy efficiency and abundance, powering a more
-                    sustainable and resilient future.
+                    Agentic AI for self-learning, scalable and autonomous
+                    industrial ecosystems.
                   </p>
                   <div className="footer-social mt-5">
                     <ul className="list-unstyled">

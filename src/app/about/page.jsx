@@ -52,16 +52,18 @@ const page = () => {
             <div className="col-lg-6">
               <div className="about-info">
                 <h2 className="title">
-                  Powering the future with AI <br /> For precision & performance
+                  Powering the future with AI
+                  <br /> For precision & performance
                 </h2>
                 <p className="desc">
-                  Elile AI transforms energy operations with predictive
-                  intelligence, proactive maintenance, and self-optimizing
-                  systems for industries that can’t afford inefficiencies.
-                  Integrating effortlessly with OEMs, EPCs, and O&M partners, we
-                  ensure cost reductions and maximum energy output. Built by
-                  experts in distributed systems & cloud reliability for a
-                  smarter, more resilient, and future-ready energy sector.
+                  Built by industry-leading experts in distributed systems,
+                  cloud reliability, and AI-driven infrastructure, our
+                  technology goes beyond traditional models, delivering
+                  real-time intelligence, predictive maintenance, and
+                  self-optimizing operations. We seamlessly integrate with OEMs,
+                  EPCs, and O&M partners, ensuring scalable AI solutions that
+                  drive autonomous decision-making across mission-critical
+                  environments.
                 </p>
                 <div className="about-grid-info">
                   <Link href="/about" className="btn-round-animation">
@@ -152,18 +154,15 @@ const page = () => {
             <div className="col-lg-4 col-md-6 ">
               <div className="feature-style-one cont">
                 <div className="info">
-                  <h4>
-                    Our Mission & <br />
-                    Vision
-                  </h4>
+                  <h4>Mission & Vision</h4>
                   <p>
-                    We are on a mission to pre-empt failures and enhance
-                    reliability, eliminating inefficiencies and ensuring
-                    uninterrupted energy performance for industries that power
-                    the world. Our vision is a future where energy ecosystems
-                    are self-sustaining, adaptive, and autonomous - where AI
-                    actively future-proofs infrastructure for generations to
-                    come.
+                    We are on a mission to drive AI-powered autonomy, ensuring
+                    self-optimizing operations across industries. We enable
+                    predictive intelligence, real-time decision-making, and
+                    autonomous infrastructure management. Our vision is to build
+                    self-sustaining, adaptive, and agentic industrial
+                    ecosystems, where AI future-proofs critical operations for
+                    generations to come.
                   </p>
                 </div>
               </div>
@@ -171,18 +170,15 @@ const page = () => {
             <div className="col-lg-4 col-md-6 ">
               <div className="feature-style-one cont">
                 <div className="info">
-                  <h4>
-                    Strategic Asset <br />
-                    Management
-                  </h4>
+                  <h4>Asset Management</h4>
                   <p>
-                    Transition from reactive maintenance to intelligent asset
-                    optimization! Our AI-driven system integrates digital twins
-                    at its core, providing real-time insights, predictive risk
+                    Go beyond reactive maintenance with AI-powered asset
+                    intelligence! Our system integrates digital twins at its
+                    core, delivering real-time insights, predictive risk
                     analysis, and remote monitoring. By transforming raw data
-                    into precise operational intelligence, we ensure energy
-                    assets function at peak efficiency, maximize uptime, and
-                    drive long-term sustainability.
+                    into actionable intelligence, we optimize industrial assets
+                    for peak performance, maximum uptime, and long-term
+                    operational resilience.
                   </p>
                 </div>
               </div>
@@ -190,15 +186,15 @@ const page = () => {
             <div className="col-lg-4 col-md-6 ">
               <div className="feature-style-one cont">
                 <div className="info">
-                  <h4>Autonomous Energy Operations </h4>
+                  <h4>AI for Industrial Resilience </h4>
                   <p>
-                    Our AI-powered framework creates self-managing energy
-                    systems that minimize human intervention while maximizing
-                    efficiency. With dynamic load balancing, real-time
-                    diagnostics, and automated fault resolution, we enable
-                    energy ecosystems to adapt, optimize, and self-heal. The
-                    result—lower costs, higher resilience, and a future-ready
-                    infrastructure.
+                    Our AI enables real-time decision-making, decentralized
+                    control, and multi-agent collaboration for self-sustaining
+                    operations. By integrating predictive intelligence with
+                    autonomous execution, we minimize human reliance while
+                    ensuring seamless adaptability, proactive issue resolution,
+                    fault resilience, and peak system performance across
+                    critical industries.
                   </p>
                 </div>
               </div>
@@ -386,6 +382,76 @@ const page = () => {
                         <Link href="/">Sanket Mangrulkar</Link>
                       </h4>
                       <span>Chief Financial Officer</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-4 col-md-6 mb-4">
+              <div className="team-style-one">
+                <div className="thumb">
+                  <img
+                    decoding="async"
+                    src="/img/team/5.jpg"
+                    alt="Dilabs"
+                    className="img-fluid"
+                  />
+                  <div className="team-info">
+                    <div className="team-social">
+                      <div className="share-link">
+                        <i className="fa-solid fa-binoculars"></i>
+                        <ul>
+                          <li className="linkedin">
+                            <Link href="#">
+                              <i className="fa-brands fa-linkedin-in"></i>
+                            </Link>
+                          </li>
+                        </ul>
+                      </div>
+                      <Link href="#">
+                        <i className="fa-solid fa-envelope"></i>
+                      </Link>
+                    </div>
+                    <div className="content">
+                      <h4>
+                        <Link href="/">Ali Wahab</Link>
+                      </h4>
+                      <span>Software Engineer </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-4 col-md-6 mb-4">
+              <div className="team-style-one">
+                <div className="thumb">
+                  <img
+                    decoding="async"
+                    src="/img/team/6.jpg"
+                    alt="Dilabs"
+                    className="img-fluid"
+                  />
+                  <div className="team-info">
+                    <div className="team-social">
+                      <div className="share-link">
+                        <i className="fa-solid fa-binoculars"></i>
+                        <ul>
+                          <li className="linkedin">
+                            <Link href="#">
+                              <i className="fa-brands fa-linkedin-in"></i>
+                            </Link>
+                          </li>
+                        </ul>
+                      </div>
+                      <Link href="#">
+                        <i className="fa-solid fa-envelope"></i>
+                      </Link>
+                    </div>
+                    <div className="content">
+                      <h4>
+                        <Link href="/">Tugba H. Soner</Link>
+                      </h4>
+                      <span>Director of Product</span>
                     </div>
                   </div>
                 </div>

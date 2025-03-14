@@ -34,8 +34,8 @@ export const Journey = () => {
               <a>2019</a>
             </h5>
             <p>
-              We envisioned a future where energy systems are driven by
-              <br /> AI.
+              We envisioned a future driven by autonomous AI
+              <br /> systems.
             </p>
           </div>
         </SwiperSlide>
@@ -82,7 +82,7 @@ export const Journey = () => {
               <a>2023</a>
             </h5>
             <p>
-              Meeting demands of energy infra with our proprietary technology,
+              Expanded multi-agent AI and our proprietary AI operating system,
               ElectrOS.
             </p>
           </div>
@@ -94,8 +94,20 @@ export const Journey = () => {
               <a>2024</a>
             </h5>
             <p>
-              Towards a more resilient future with industry-leading clients like
-              ACWA Power.
+              Driving industrial autonomy and predictive intelligence with
+              clients like ACWA Power.
+            </p>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="journey-item mb-30 tp_fade_left">
+            <span className="journey-item-number">06</span>
+            <h5 className="journey-item-title">
+              <a>2025</a>
+            </h5>
+            <p>
+              Scaling AI solutions across data centers, critical infrastructure,
+              and new industries.
             </p>
           </div>
         </SwiperSlide>

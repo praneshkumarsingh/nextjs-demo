@@ -70,7 +70,7 @@ export const Capability = () => {
                   <h2>Prevent</h2>
                   <p>
                     We employ decentralized AI and multi-agent reinforcement
-                    learning for autonomous energy management. Edge AI ensures
+                    learning for autonomous management. Edge AI ensures
                     ultra-low latency anomaly detection and rapid response.
                     Reinforcement learning dynamically optimizes maintenance
                     schedules based on probabilistic failure scenarios.
@@ -97,15 +97,15 @@ export const Capability = () => {
                 <div className="info text-light">
                   <h2>Perform</h2>
                   <p>
-                    We optimize energy infrastructure using convex optimization,
-                    deep reinforcement learning, and neural network-based
-                    predictive controllers. Model Predictive Control (MPC)
-                    ensures real-time operational adjustments, maximizing
-                    efficiency. Distributed Ledger Technology (DLT) secures
-                    energy transactions and decentralizes asset management.
+                    We optimize critical infrastructure using convex
+                    optimization, deep reinforcement learning, and neural
+                    network-based predictive controllers. Model Predictive
+                    Control (MPC) ensures real-time operational adjustments,
+                    maximizing efficiency. Distributed Ledger Technology (DLT)
+                    secures transactions and decentralizes asset management.
                     Genetic algorithms, ensemble learning, and swarm
                     intelligence continuously refine optimization strategies,
-                    adapting dynamically to grid conditions and renewable energy
+                    adapting dynamically to infra conditions and power
                     variability.
                   </p>
                 </div>

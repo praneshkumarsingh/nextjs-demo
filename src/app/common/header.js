@@ -48,27 +48,79 @@ const Header = () => {
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
+                    Energy Efficiency
+                  </Link>
+                  <ul className="dropdown-menu">
+                    <li>
+                      <Link className="dropdown-item" href="/data-engineering">
+                        Data Engineering
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        className="dropdown-item"
+                        href="/monitoring-alerting"
+                      >
+                        Monitoring & Alerting
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        className="dropdown-item"
+                        href="/diagnostics-remediation"
+                      >
+                        Diagnostics & Remediation
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        className="dropdown-item"
+                        href="/performance-optimization"
+                      >
+                        Performance Optimization
+                      </Link>
+                    </li>
+                  </ul>
+                </li>
+                <li className="nav-item dropdown">
+                  <Link
+                    className="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
                     Services
                   </Link>
                   <ul className="dropdown-menu">
                     <li>
                       <Link className="dropdown-item" href="/service-details">
-                        Data Engineering
+                        Agentic AI Solutions
                       </Link>
                     </li>
                     <li>
                       <Link className="dropdown-item" href="/service-details">
-                        Monitoring & Alerting
+                        Autonomous Operations
                       </Link>
                     </li>
                     <li>
                       <Link className="dropdown-item" href="/service-details">
-                        Diagnostics & Remediation
+                        AI-Driven Adaptive Systems
                       </Link>
                     </li>
                     <li>
                       <Link className="dropdown-item" href="/service-details">
-                        Performance Optimization
+                        Predictive Alerts & Fault Prevention
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="dropdown-item" href="/service-details">
+                        Critical Industrial & Energy Systems
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="dropdown-item" href="/service-details">
+                        AI Strategy & Deployment
                       </Link>
                     </li>
                   </ul>
@@ -78,16 +130,6 @@ const Header = () => {
                     Domains
                   </Link>
                 </li>
-                <li className="nav-item">
-                  <Link className="nav-link" aria-disabled="true" href="#">
-                    Our Expertise
-                  </Link>
-                </li>
-                {/* <li className="nav-item pe-0">
-                  <Link className="nav-link" aria-disabled="true" href="#">
-                    Our Team
-                  </Link>
-                </li> */}
               </ul>
               <div className="d-flex">
                 <Link

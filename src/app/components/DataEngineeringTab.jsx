@@ -3,7 +3,7 @@ import { useState } from "react";
 import Tab from "react-bootstrap/Tab";
 import Tabs from "react-bootstrap/Tabs";
 
-const ServiceTab = () => {
+const DataEngineeringTab = () => {
   const [key, setKey] = useState("home");
 
   return (
@@ -13,25 +13,25 @@ const ServiceTab = () => {
       onSelect={(k) => setKey(k)}
       className="mb-3 service-tab-top"
     >
-      <Tab eventKey="home" title="01. Text Editor">
+      <Tab eventKey="home" title="Solutions">
         <div className="service-tab-content">
           <h3 className="service-tab-content-title">
             Data-driven energy insights for a sustainable future!
           </h3>
           <p>
-            Our data engineering solutions efficiently manage and synchronize
-            out-of-sync energy data streams from diverse energy systems. By
-            leveraging AI in energy management, cloud computing, and advanced
-            ingestion techniques, we ensure consistent, reliable insights for
-            energy-efficient monitoring and cost-effective infrastructure
-            optimization. This streamlined approach powers advanced machine
+            Elile’s data engineering solutions efficiently manage and
+            synchronize out-of-sync energy data streams from diverse energy
+            systems. By leveraging AI in energy management, cloud computing, and
+            advanced ingestion techniques, we ensure consistent, reliable
+            insights for energy-efficient monitoring and cost-effective
+            infrastructure optimization. This approach powers advanced machine
             learning models and actionable intelligence, enabling data-driven
             decision-making for sustainable, large-scale power production and
             distribution.
           </p>
         </div>
       </Tab>
-      <Tab eventKey="profile" title="02. TRACK ANALYTICS">
+      <Tab eventKey="profile" title="Applications">
         <div className="service-tab-content">
           <h3 className="service-tab-content-title">
             Applications that maximize efficiency and performance
@@ -53,4 +53,4 @@ const ServiceTab = () => {
   );
 };
 
-export default ServiceTab;
+export default DataEngineeringTab;
