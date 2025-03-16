@@ -126,7 +126,11 @@ const Header = () => {
                   </ul>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" aria-disabled="true" href="#">
+                  <Link
+                    className="nav-link"
+                    aria-disabled="true"
+                    href="/domains"
+                  >
                     Domains
                   </Link>
                 </li>

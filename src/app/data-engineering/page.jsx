@@ -48,7 +48,7 @@ const Page = () => {
       <section className="service-advantage">
         <div className="container">
           <div className="row justify-content-center mb-5">
-            <div className="col-lg-5 text-center">
+            <div className="col-lg-6 text-center">
               <h3 className="title">
                 Advanced capabilities
                 <br />
