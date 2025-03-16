@@ -16,7 +16,8 @@ const DiagnosticsTab = () => {
       <Tab eventKey="home" title="Automation & Maintenance">
         <div className="service-tab-content">
           <h3 className="service-tab-content-title">
-            Automated diagnostics for cost-effective maintenance
+            Automated diagnostics for <br />
+            cost-effective maintenance
           </h3>
           <p>
             Elile’s diagnostics & remediation solutions leverage automated tools

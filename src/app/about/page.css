@@ -286,6 +286,7 @@
   -ms-transition: all 0.3s linear 0s;
   -o-transition: all 0.3s linear 0s;
   transition: all 0.3s linear 0s;
+  height: 95%;
 }
 
 .journey-item-number {
@@ -441,7 +442,7 @@
 .swiper-pagination span.swiper-pagination-bullet {
   height: 20px !important;
   width: 20px !important;
-  border: 1px solid #084838 !important;
+  border: 1px solid #37b984 !important;
   background: transparent !important;
   position: relative !important;
   z-index: 1 !important;

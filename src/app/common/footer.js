@@ -40,22 +40,22 @@ const Footer = () => {
                   <div className="menu-company-container">
                     <ul className="list-unstyled">
                       <li className="menu-item">
-                        <a href="#">Compnay Profile</a>
+                        <a href="/">Home</a>
                       </li>
                       <li className="menu-item">
-                        <a href="#">About</a>
+                        <a href="/about">About</a>
                       </li>
                       <li className="menu-item">
-                        <a href="#">Help Center</a>
+                        <a href="/domains">Domains</a>
                       </li>
                       <li className="menu-item">
-                        <a href="#">Career</a>
+                        <a href="/our-ceo">Meet Our CEO</a>
                       </li>
                       <li className="menu-item">
-                        <a href="#">Plans &amp; Pricing</a>
+                        <a href="/expertise">Our Expertise</a>
                       </li>
                       <li className="menu-item">
-                        <a href="#">Contact</a>
+                        <a href="/contact">Contact</a>
                       </li>
                     </ul>
                   </div>

@@ -56,10 +56,7 @@ function page() {
                       <i className="fa-solid fa-check"></i>
                     </div>
                     <div className="content">
-                      <h5>
-                        Solving Industrial <br />
-                        Inefficiencies
-                      </h5>
+                      <h5>Solving Industrial Inefficiencies</h5>
                       <p className="mb-0">
                         Traditional models lack adaptability, creating data
                         silos & operational blind spots. Without real-time
@@ -73,10 +70,7 @@ function page() {
                       <i className="fa-solid fa-check"></i>
                     </div>
                     <div className="content">
-                      <h5>
-                        From Automation to <br />
-                        Autonomy
-                      </h5>
+                      <h5>From Automation to Autonomy</h5>
                       <p className="mb-0">
                         Elile’s multi-agentic intelligence enables real-time
                         collaboration, eliminating inefficiencies, predicting
@@ -278,7 +272,8 @@ function page() {
                 <div className="content">
                   <h4>
                     <Link href="service-details">
-                      Predictive Alerts & Fault Prevention
+                      Predictive Alerts & <br />
+                      Fault Prevention
                     </Link>
                   </h4>
                   <p>
@@ -712,7 +707,7 @@ function page() {
                         aria-expanded="false"
                         aria-controls="collapseTen"
                       >
-                        How does Elile leverages AI in energy industry
+                        How does Elile leverage AI in energy industry
                       </button>
                     </h2>
                     <div

@@ -94,32 +94,50 @@ const Header = () => {
                   </Link>
                   <ul className="dropdown-menu">
                     <li>
-                      <Link className="dropdown-item" href="/service-details">
+                      <Link
+                        className="dropdown-item"
+                        href="/agentic-ai-solutions"
+                      >
                         Agentic AI Solutions
                       </Link>
                     </li>
                     <li>
-                      <Link className="dropdown-item" href="/service-details">
+                      <Link
+                        className="dropdown-item"
+                        href="/autonomous-operations"
+                      >
                         Autonomous Operations
                       </Link>
                     </li>
                     <li>
-                      <Link className="dropdown-item" href="/service-details">
+                      <Link
+                        className="dropdown-item"
+                        href="/ai-driven-adaptive-systems"
+                      >
                         AI-Driven Adaptive Systems
                       </Link>
                     </li>
                     <li>
-                      <Link className="dropdown-item" href="/service-details">
+                      <Link
+                        className="dropdown-item"
+                        href="/predictive-alerts-and-fault-prevention"
+                      >
                         Predictive Alerts & Fault Prevention
                       </Link>
                     </li>
                     <li>
-                      <Link className="dropdown-item" href="/service-details">
+                      <Link
+                        className="dropdown-item"
+                        href="/critical-industrial-and-energy-systems"
+                      >
                         Critical Industrial & Energy Systems
                       </Link>
                     </li>
                     <li>
-                      <Link className="dropdown-item" href="/service-details">
+                      <Link
+                        className="dropdown-item"
+                        href="/ai-strategy-and-deployment"
+                      >
                         AI Strategy & Deployment
                       </Link>
                     </li>

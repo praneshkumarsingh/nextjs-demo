@@ -1,5 +1,4 @@
 import React from "react";
-import "./page.css";
 import Link from "next/link";
 
 const ServiceDetail = () => {
@@ -20,9 +19,9 @@ const ServiceDetail = () => {
             <div className="row">
               <div className="col-lg-8 ">
                 <nav className="woocommerce-breadcrumb" aria-label="Breadcrumb">
-                  <Link href="/">Home</Link> / About Us
+                  <Link href="/">Home</Link> / Agentic AI Solutions
                 </nav>
-                <h1 className="breadcumb-title">About Us</h1>
+                <h1 className="breadcumb-title">Agentic AI Solutions</h1>
               </div>
             </div>
           </div>
@@ -33,23 +32,23 @@ const ServiceDetail = () => {
         <div className="container">
           <div className="row">
             <div className="col-xl-6">
-              <div className="whyChoose-caption me-3">
-                <h2 className="title mb-4">Why Choose Us ?</h2>
+              <div className="whyChoose-caption me-5">
+                <h2 className="title mb-4">AI that thinks, learns & acts!</h2>
                 <p className="desc">
-                  Embark on a journey of visual innovation as you delve into the
-                  realm of the AI Image Generator. This revolutionary tool
-                  harnesses the prowess of advanced algorithms to breathe life
-                  into your imagination.
+                  AI should do more than process data, it should think,
+                  collaborate, and act. Elile’s multi-agentic intelligence
+                  creates AI agents that strategize, self-optimize, and make
+                  real-time decisions autonomously.
                 </p>
                 <p className="desc">
-                  Unleash your creativity and witness the power of AI Image
-                  Generator as it transforms ideas into mesmerizing images.
-                  Generate Your Image
+                  From industrial automation to mission-critical ecosystems, our
+                  AI doesn’t just analyze -- it orchestrates seamless, adaptive
+                  operations that drive efficiency and eliminate inefficiencies.
                 </p>
                 <div className="whyChoose-btn mt-5">
-                  <a className="default-btn" href="#!">
-                    Explore More
-                  </a>
+                  <Link className="default-btn" href="tel:+16174707070">
+                    Book A Call
+                  </Link>
                 </div>
               </div>
             </div>
@@ -57,41 +56,64 @@ const ServiceDetail = () => {
               <div className="whyChooseSec-box">
                 <h3>
                   <img src="/img/unique.svg" className="img-fluid"></img>
-                  Excellent Support
+                  Distributed Intelligence
                 </h3>
                 <p>
-                  Amet id urna ipsum donec amet. Diam sapien a convallis
-                  vestibulum condimentum sit. Elementum sodales scelerisque.
+                  Multi-agent systems coordinate complex tasks dynamically
+                  across operations, ensuring seamless decision-making and
+                  execution.
                 </p>
               </div>
               <div className="whyChooseSec-box">
                 <h3>
                   <img src="/img/unique.svg" className="img-fluid"></img>
-                  Excellent Support
+                  Autonomous Collaboration
                 </h3>
                 <p>
-                  Amet id urna ipsum donec amet. Diam sapien a convallis
-                  vestibulum condimentum sit. Elementum sodales scelerisque.
+                  AI agents communicate, strategize, and optimize processes
+                  without human intervention, enhancing operational autonomy.
                 </p>
               </div>
               <div className="whyChooseSec-box">
                 <h3>
                   <img src="/img/unique.svg" className="img-fluid"></img>
-                  Excellent Support
+                  Adaptive Learning
                 </h3>
                 <p>
-                  Amet id urna ipsum donec amet. Diam sapien a convallis
-                  vestibulum condimentum sit. Elementum sodales scelerisque.
+                  Reinforcement learning-driven AI evolves continuously based on
+                  real-time feedback, adapting to new challenges and conditions.
                 </p>
               </div>
               <div className="whyChooseSec-box">
                 <h3>
                   <img src="/img/unique.svg" className="img-fluid"></img>
-                  Excellent Support
+                  Interoperability Engine
                 </h3>
                 <p>
-                  Amet id urna ipsum donec amet. Diam sapien a convallis
-                  vestibulum condimentum sit. Elementum sodales scelerisque.
+                  Seamless integration with SCADA, IoT, cloud, and edge
+                  computing systems enables unified, cross-platform
+                  intelligence.
+                </p>
+              </div>
+              <div className="whyChooseSec-box">
+                <h3>
+                  <img src="/img/unique.svg" className="img-fluid"></img>
+                  Real-Time Optimization
+                </h3>
+                <p>
+                  Predictive adjustments ensure peak efficiency across
+                  industrial workflows, reducing inefficiencies and maximizing
+                  uptime.
+                </p>
+              </div>
+              <div className="whyChooseSec-box">
+                <h3>
+                  <img src="/img/unique.svg" className="img-fluid"></img>
+                  Scalable Multi-Agent Framework
+                </h3>
+                <p>
+                  AI networks scale dynamically for growing industrial demands,
+                  ensuring future-proof, adaptive intelligence.
                 </p>
               </div>
             </div>

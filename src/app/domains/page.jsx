@@ -34,6 +34,34 @@ const DomainDetails = () => {
           <Domains />
         </div>
       </section>
+
+      <section className="cta-sec section-gap">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12">
+              <div className="cta-inner text-center">
+                <h2>
+                  Ready to revolutionize
+                  <br /> our service?
+                </h2>
+                <p className="desc">
+                  Optimize your impact this holiday season with an AI-driven,
+                  <br />
+                  multichannel marketing strategy.
+                </p>
+                <div className="mt-2">
+                  <a className="default-btn" href="#!">
+                    Explore More
+                  </a>
+                  <a className="default-btn style-two ms-4" href="/about">
+                    Learn More
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 };

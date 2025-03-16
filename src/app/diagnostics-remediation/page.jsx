@@ -40,7 +40,7 @@ const Page = () => {
             </div>
             <div className="col-lg-6">
               <div className="service-tab-img">
-                <img src="/img/service-img.png" className="img-fluid" />
+                <img src="/img/diagnostics-img.png" className="img-fluid" />
               </div>
             </div>
           </div>
@@ -50,7 +50,7 @@ const Page = () => {
       <section className="service-advantage">
         <div className="container">
           <div className="row justify-content-center mb-5">
-            <div className="col-lg-6 text-center">
+            <div className="col-lg-12 text-center">
               <h3 className="title">
                 Features for precise diagnostics
                 <br />& timely remediation

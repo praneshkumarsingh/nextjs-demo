@@ -33,10 +33,7 @@ export const Journey = () => {
             <h5 className="journey-item-title">
               <a>2019</a>
             </h5>
-            <p>
-              We envisioned a future driven by autonomous AI
-              <br /> systems.
-            </p>
+            <p>We envisioned a future driven by autonomous AI systems.</p>
           </div>
         </SwiperSlide>
         <SwiperSlide>
@@ -101,13 +98,25 @@ export const Journey = () => {
         </SwiperSlide>
         <SwiperSlide>
           <div className="journey-item mb-30 tp_fade_left">
-            <span className="journey-item-number">06</span>
+            <span className="journey-item-number">07</span>
             <h5 className="journey-item-title">
               <a>2025</a>
             </h5>
             <p>
               Scaling AI solutions across data centers, critical infrastructure,
               and new industries.
+            </p>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="journey-item mb-30 tp_fade_left">
+            <span className="journey-item-number">08</span>
+            <h5 className="journey-item-title">
+              <a>2026</a>
+            </h5>
+            <p>
+              Expanding Generative AI and LLM-based models for vendor-agnostic
+              operations.
             </p>
           </div>
         </SwiperSlide>

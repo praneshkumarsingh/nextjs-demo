@@ -16,7 +16,7 @@ const DataEngineeringTab = () => {
       <Tab eventKey="home" title="Solutions">
         <div className="service-tab-content">
           <h3 className="service-tab-content-title">
-            Data-driven energy insights for a sustainable future!
+            Data-driven energy insights <br /> for a sustainable future!
           </h3>
           <p>
             Elile’s data engineering solutions efficiently manage and

@@ -63,7 +63,6 @@ export const Domains = () => {
                     </text>
                   </svg>
                 </div>
-                <h4>We have worked for you</h4>
                 <h2 className="text-path">since 1980</h2>
                 <img
                   src="/img/about-service.jpg"
@@ -113,7 +112,6 @@ export const Domains = () => {
                     </text>
                   </svg>
                 </div>
-                <h4>We have worked for you</h4>
                 <h2 className="text-path">since 1980</h2>
                 <img
                   src="/img/about-service.jpg"
@@ -163,7 +161,7 @@ export const Domains = () => {
                     </text>
                   </svg>
                 </div>
-                <h4>We have worked for you</h4>
+
                 <h2 className="text-path">since 1980</h2>
                 <img
                   src="/img/about-service.jpg"

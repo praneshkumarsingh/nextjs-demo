@@ -15,11 +15,11 @@
   border: 2px dashed #448C74;
   padding: 10px;
   border-radius: 50%;
-  max-width: 90%;
+  max-width: 78%;
 }
 
 .about-content .title {
-  font-size: 32px;
+  font-size: 28px;
   margin-bottom: 0px;
 }
 
@@ -46,7 +46,7 @@
 }
 
 .about-details .desc {
-  font-size: 18px;
+  font-size: 16px;
   margin-bottom: 17px;
 }
 
