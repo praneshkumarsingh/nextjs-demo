@@ -50,11 +50,11 @@ const Page = () => {
       <section className="service-advantage">
         <div className="container">
           <div className="row justify-content-center mb-5">
-            <div className="col-lg-5 text-center">
+            <div className="col-lg-6 text-center">
               <h3 className="title">
-                Advanced capabilities
+                Capabilities for real-time, precision
                 <br />
-                for superior data management
+                monitoring
               </h3>
             </div>
           </div>
@@ -62,66 +62,59 @@ const Page = () => {
             <div className="col-lg-4">
               <div className="advantage-wrap">
                 <h5 className="service-advantage-title">
-                  Real-Time Data Ingestion
+                  Centralized Dashboards
                 </h5>
                 <p>
-                  Seamlessly capture and process data from multiple sources in
-                  real-time, ensuring no delays in critical information flow.
+                  Track system-wide performance metrics on one unified platform,
+                  providing actionable insights across all operational layers.
+                </p>
+              </div>
+            </div>
+            <div className="col-lg-4">
+              <div className="advantage-wrap">
+                <h5 className="service-advantage-title">Digital Twin</h5>
+                <p>
+                  Virtual representation of physical assets to simulate
+                  real-world performance, identifying issues before they arise.
                 </p>
               </div>
             </div>
             <div className="col-lg-4">
               <div className="advantage-wrap">
                 <h5 className="service-advantage-title">
-                  Advanced Data Buffering
+                  Predictive Algorithms
                 </h5>
                 <p>
-                  Use scalable buffering techniques to manage data streams,
-                  avoiding loss or duplication during transmission.
+                  Predict and forecast equipment health to reduce downtime and
+                  extend asset lifespan through targeted interventions.
                 </p>
               </div>
             </div>
             <div className="col-lg-4">
               <div className="advantage-wrap">
-                <h5 className="service-advantage-title">
-                  Intelligent Synchronization
-                </h5>
+                <h5 className="service-advantage-title">Multi-level Alerts</h5>
                 <p>
-                  Aligns disparate data streams for consistent analysis,
-                  regardless of varying sampling rates.
+                  Receive layered alerts based on severity, ensuring immediate
+                  attention to high-priority issues without overwhelming
+                  operators.
                 </p>
               </div>
             </div>
             <div className="col-lg-4">
               <div className="advantage-wrap">
-                <h5 className="service-advantage-title">
-                  ML-Ready Data Pipelines
-                </h5>
+                <h5 className="service-advantage-title">Customizable KPIs</h5>
                 <p>
-                  Pre-process data for immediate integration with machine
-                  learning models, accelerating AI-driven insights.
+                  Tailor performance indicators to specific strategic goals for
+                  continuously monitoring critical industrial assets.
                 </p>
               </div>
             </div>
             <div className="col-lg-4">
               <div className="advantage-wrap">
-                <h5 className="service-advantage-title">
-                  Scalable Infrastructure
-                </h5>
+                <h5 className="service-advantage-title">Anomaly Detection</h5>
                 <p>
-                  Supports high-volume data processing across distributed
-                  systems, ensuring flexibility as data needs grow.
-                </p>
-              </div>
-            </div>
-            <div className="col-lg-4">
-              <div className="advantage-wrap">
-                <h5 className="service-advantage-title">
-                  Customizable Workflows
-                </h5>
-                <p>
-                  Tailor data workflows to specific operational needs, enhancing
-                  the adaptability and efficiency of energy management.
+                  Advanced ML models detect abnormal patterns in data,
+                  triggering early warnings for all potential failures.
                 </p>
               </div>
             </div>
@@ -173,63 +166,60 @@ const Page = () => {
               <div className="align-self-center">
                 <div className="choose-caption">
                   <h2 className="title">
-                    Benefits that Go Beyond <br />
-                    Reliability and Efficiency
+                    Monitoring solutions that do <br />
+                    more and work smarter
                   </h2>
                   <ul className="list-check">
                     <li>
                       <span>
                         <i className="fa-solid fa-check"></i>
                       </span>
-                      Real-time insights from high-frequency data for rapid
-                      decision-making.
+                      Identify potential system failures before they happen.
                     </li>
                     <li>
                       <span>
                         <i className="fa-solid fa-check"></i>
                       </span>
-                      Streamlined processes reduce redundant computations.
+                      Avoid unnecessary repairs and minimize operational costs.
                     </li>
                     <li>
                       <span>
                         <i className="fa-solid fa-check"></i>
                       </span>
-                      Advanced encryption and multi-layered access controls for
-                      security.
+                      Monitoring with end-to-end encryption for secure data
+                      flow.
                     </li>
                     <li>
                       <span>
                         <i className="fa-solid fa-check"></i>
                       </span>
-                      Modular, cloud-based infrastructure adapts to growing data
-                      needs.
+                      Immediate detection of anomalies ensures swift responses.
                     </li>
                     <li>
                       <span>
                         <i className="fa-solid fa-check"></i>
                       </span>
-                      Unified data integration for cross-platform management.
+                      Data-driven monitoring enables operational fine-tuning.
                     </li>
                     <li>
                       <span>
                         <i className="fa-solid fa-check"></i>
                       </span>
-                      Comprehensive visibility with structured, synchronized
-                      data flows.
+                      Easily expand monitoring capabilities as the system grows.
                     </li>
                     <li>
                       <span>
                         <i className="fa-solid fa-check"></i>
                       </span>
-                      AI-ready pipelines for predictive analytics and
-                      diagnostics.
+                      Gain 360° view of your systems, from generation to
+                      distribution.
                     </li>
                     <li>
                       <span>
                         <i className="fa-solid fa-check"></i>
                       </span>
-                      High data fidelity for precise, actionable insights in
-                      energy management.
+                      Predictive maintenance schedules extend life of key
+                      assets.
                     </li>
                   </ul>
                 </div>

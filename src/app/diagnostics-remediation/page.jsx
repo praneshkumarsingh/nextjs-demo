@@ -20,9 +20,11 @@ const Page = () => {
             <div className="row">
               <div className="col-lg-8 ">
                 <nav className="woocommerce-breadcrumb" aria-label="Breadcrumb">
-                  <Link href="/">Home</Link> / Data Engineering
+                  <Link href="/">Home</Link> / Diagnostics & Remediation
                 </nav>
-                <h1 className="breadcumb-title">Utilizing data for energy </h1>
+                <h1 className="breadcumb-title">
+                  Proactive diagnostics for energy efficiency{" "}
+                </h1>
               </div>
             </div>
           </div>
@@ -48,78 +50,73 @@ const Page = () => {
       <section className="service-advantage">
         <div className="container">
           <div className="row justify-content-center mb-5">
-            <div className="col-lg-5 text-center">
+            <div className="col-lg-6 text-center">
               <h3 className="title">
-                Advanced capabilities
-                <br />
-                for superior data management
+                Features for precise diagnostics
+                <br />& timely remediation
               </h3>
             </div>
           </div>
           <div className="row pt-4">
             <div className="col-lg-4">
               <div className="advantage-wrap">
-                <h5 className="service-advantage-title">
-                  Real-Time Data Ingestion
-                </h5>
+                <h5 className="service-advantage-title">Automated RCA</h5>
                 <p>
-                  Seamlessly capture and process data from multiple sources in
-                  real-time, ensuring no delays in critical information flow.
+                  AI-powered diagnostics to identify underlying causes of
+                  inefficiencies and failures in real time.
                 </p>
               </div>
             </div>
             <div className="col-lg-4">
               <div className="advantage-wrap">
                 <h5 className="service-advantage-title">
-                  Advanced Data Buffering
+                  Digital Twin Integration
                 </h5>
                 <p>
-                  Use scalable buffering techniques to manage data streams,
-                  avoiding loss or duplication during transmission.
+                  Simulate physical systems in a virtual environment to diagnose
+                  and predict potential disruptions before they occur.
                 </p>
               </div>
             </div>
             <div className="col-lg-4">
               <div className="advantage-wrap">
                 <h5 className="service-advantage-title">
-                  Intelligent Synchronization
+                  Models for Efficiency Loss
                 </h5>
                 <p>
-                  Aligns disparate data streams for consistent analysis,
-                  regardless of varying sampling rates.
+                  Predictive models to predict potential drops, allowing
+                  operators to address issues before they impact performance.
                 </p>
               </div>
             </div>
             <div className="col-lg-4">
               <div className="advantage-wrap">
                 <h5 className="service-advantage-title">
-                  ML-Ready Data Pipelines
+                  Detailed Actionable Reports
                 </h5>
                 <p>
-                  Pre-process data for immediate integration with machine
-                  learning models, accelerating AI-driven insights.
+                  Receive reports with actionable recommendations for resolving
+                  detected inefficiencies and improving system response.
+                </p>
+              </div>
+            </div>
+            <div className="col-lg-4">
+              <div className="advantage-wrap">
+                <h5 className="service-advantage-title">Rigorous Validation</h5>
+                <p>
+                  Benefit from robust testing and validation processes to ensure
+                  highly accurate diagnostics and reliable for all assets.
                 </p>
               </div>
             </div>
             <div className="col-lg-4">
               <div className="advantage-wrap">
                 <h5 className="service-advantage-title">
-                  Scalable Infrastructure
+                  Customizable Diagnostics
                 </h5>
                 <p>
-                  Supports high-volume data processing across distributed
-                  systems, ensuring flexibility as data needs grow.
-                </p>
-              </div>
-            </div>
-            <div className="col-lg-4">
-              <div className="advantage-wrap">
-                <h5 className="service-advantage-title">
-                  Customizable Workflows
-                </h5>
-                <p>
-                  Tailor data workflows to specific operational needs, enhancing
-                  the adaptability and efficiency of energy management.
+                  Tailored diagnostic processes to meet specific operational
+                  goals, aligning assessments with critical KPIs.
                 </p>
               </div>
             </div>
@@ -171,63 +168,58 @@ const Page = () => {
               <div className="align-self-center">
                 <div className="choose-caption">
                   <h2 className="title">
-                    Benefits that Go Beyond <br />
-                    Reliability and Efficiency
+                    Our diagnostics solutions offer <br />
+                    proactive advantages
                   </h2>
                   <ul className="list-check">
                     <li>
                       <span>
                         <i className="fa-solid fa-check"></i>
                       </span>
-                      Real-time insights from high-frequency data for rapid
-                      decision-making.
+                      Accurately forecast performance degradation.
                     </li>
                     <li>
                       <span>
                         <i className="fa-solid fa-check"></i>
                       </span>
-                      Streamlined processes reduce redundant computations.
+                      Minimize downtime through constant monitoring.
                     </li>
                     <li>
                       <span>
                         <i className="fa-solid fa-check"></i>
                       </span>
-                      Advanced encryption and multi-layered access controls for
-                      security.
+                      Ensure operational reliability with real-time diagnostics.
                     </li>
                     <li>
                       <span>
                         <i className="fa-solid fa-check"></i>
                       </span>
-                      Modular, cloud-based infrastructure adapts to growing data
-                      needs.
+                      Less operational costs with targeted maintenance.
                     </li>
                     <li>
                       <span>
                         <i className="fa-solid fa-check"></i>
                       </span>
-                      Unified data integration for cross-platform management.
+                      Peak performance across large-scale energy assets.
                     </li>
                     <li>
                       <span>
                         <i className="fa-solid fa-check"></i>
                       </span>
-                      Comprehensive visibility with structured, synchronized
-                      data flows.
+                      Seamless integration with existing control systems.
                     </li>
                     <li>
                       <span>
                         <i className="fa-solid fa-check"></i>
                       </span>
-                      AI-ready pipelines for predictive analytics and
-                      diagnostics.
+                      Generate precise, actionable reports for remediation.
                     </li>
                     <li>
                       <span>
                         <i className="fa-solid fa-check"></i>
                       </span>
-                      High data fidelity for precise, actionable insights in
-                      energy management.
+                      Extend asset life by addressing issues before they
+                      escalate.
                     </li>
                   </ul>
                 </div>

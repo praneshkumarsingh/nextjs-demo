@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import ControlledTabsExample from "../components/DataEngineeringTab";
+import PerformanceTab from "../components/PerformanceTab";
 
 const Page = () => {
   return (
@@ -20,9 +20,11 @@ const Page = () => {
             <div className="row">
               <div className="col-lg-8 ">
                 <nav className="woocommerce-breadcrumb" aria-label="Breadcrumb">
-                  <Link href="/">Home</Link> / Data Engineering
+                  <Link href="/">Home</Link> / Performance Optimization
                 </nav>
-                <h1 className="breadcumb-title">Utilizing data for energy </h1>
+                <h1 className="breadcumb-title">
+                  Operational efficiency in energy production
+                </h1>
               </div>
             </div>
           </div>
@@ -33,7 +35,7 @@ const Page = () => {
           <div className="row">
             <div className="col-lg-6">
               <div className="service-tab-wrap">
-                <ControlledTabsExample />
+                <PerformanceTab />
               </div>
             </div>
             <div className="col-lg-6">
@@ -48,11 +50,11 @@ const Page = () => {
       <section className="service-advantage">
         <div className="container">
           <div className="row justify-content-center mb-5">
-            <div className="col-lg-5 text-center">
+            <div className="col-lg-6 text-center">
               <h3 className="title">
-                Advanced capabilities
+                Advanced features for performance
                 <br />
-                for superior data management
+                enhancement
               </h3>
             </div>
           </div>
@@ -60,66 +62,66 @@ const Page = () => {
             <div className="col-lg-4">
               <div className="advantage-wrap">
                 <h5 className="service-advantage-title">
-                  Real-Time Data Ingestion
+                  AI-Driven Load Balancing
                 </h5>
                 <p>
-                  Seamlessly capture and process data from multiple sources in
-                  real-time, ensuring no delays in critical information flow.
+                  Automatically adjust energy loads based on real-time demand to
+                  ensure efficient energy distribution.
                 </p>
               </div>
             </div>
             <div className="col-lg-4">
               <div className="advantage-wrap">
                 <h5 className="service-advantage-title">
-                  Advanced Data Buffering
+                  Predictive Analytics
                 </h5>
                 <p>
-                  Use scalable buffering techniques to manage data streams,
-                  avoiding loss or duplication during transmission.
+                  Forecast future energy demands and adjust production processes
+                  to maintain optimal performance levels.
                 </p>
               </div>
             </div>
             <div className="col-lg-4">
               <div className="advantage-wrap">
                 <h5 className="service-advantage-title">
-                  Intelligent Synchronization
+                  Dynamic Resource Allocation
                 </h5>
                 <p>
-                  Aligns disparate data streams for consistent analysis,
-                  regardless of varying sampling rates.
+                  Leverage data to dynamically allocate resources and minimize
+                  energy loss during peak and off-peak hours.
                 </p>
               </div>
             </div>
             <div className="col-lg-4">
               <div className="advantage-wrap">
                 <h5 className="service-advantage-title">
-                  ML-Ready Data Pipelines
+                  Energy Efficiency Modelling
                 </h5>
                 <p>
-                  Pre-process data for immediate integration with machine
-                  learning models, accelerating AI-driven insights.
+                  Simulate energy production scenarios to identify
+                  inefficiencies and implement targeted optimizations.
                 </p>
               </div>
             </div>
             <div className="col-lg-4">
               <div className="advantage-wrap">
                 <h5 className="service-advantage-title">
-                  Scalable Infrastructure
+                  Real-Time Monitoring
                 </h5>
                 <p>
-                  Supports high-volume data processing across distributed
-                  systems, ensuring flexibility as data needs grow.
+                  Continuously track system performance to detect and address
+                  inefficiencies before they impact production.
                 </p>
               </div>
             </div>
             <div className="col-lg-4">
               <div className="advantage-wrap">
                 <h5 className="service-advantage-title">
-                  Customizable Workflows
+                  Data-Driven Decisions
                 </h5>
                 <p>
-                  Tailor data workflows to specific operational needs, enhancing
-                  the adaptability and efficiency of energy management.
+                  Utilize AI insights to make informed decisions on asset
+                  performance, reducing unnecessary expenditures.
                 </p>
               </div>
             </div>
@@ -171,63 +173,62 @@ const Page = () => {
               <div className="align-self-center">
                 <div className="choose-caption">
                   <h2 className="title">
-                    Benefits that Go Beyond <br />
-                    Reliability and Efficiency
+                    Benefits that extend beyond <br />
+                    performance gains
                   </h2>
                   <ul className="list-check">
                     <li>
                       <span>
                         <i className="fa-solid fa-check"></i>
                       </span>
-                      Real-time insights from high-frequency data for rapid
-                      decision-making.
+                      Reduce operational costs with efficient resource
+                      management.
                     </li>
                     <li>
                       <span>
                         <i className="fa-solid fa-check"></i>
                       </span>
-                      Streamlined processes reduce redundant computations.
+                      Increase energy output while minimizing energy loss.
                     </li>
                     <li>
                       <span>
                         <i className="fa-solid fa-check"></i>
                       </span>
-                      Advanced encryption and multi-layered access controls for
-                      security.
+                      Better system reliability with predictive performance
+                      optimization.
                     </li>
                     <li>
                       <span>
                         <i className="fa-solid fa-check"></i>
                       </span>
-                      Modular, cloud-based infrastructure adapts to growing data
-                      needs.
+                      Seamless integration into existing energy infrastructure.
                     </li>
                     <li>
                       <span>
                         <i className="fa-solid fa-check"></i>
                       </span>
-                      Unified data integration for cross-platform management.
+                      Modular solutions scale with your infrastructure, at every
+                      stage.
                     </li>
                     <li>
                       <span>
                         <i className="fa-solid fa-check"></i>
                       </span>
-                      Comprehensive visibility with structured, synchronized
-                      data flows.
+                      Actionable insights for improvements across all
+                      operational layers.
                     </li>
                     <li>
                       <span>
                         <i className="fa-solid fa-check"></i>
                       </span>
-                      AI-ready pipelines for predictive analytics and
-                      diagnostics.
+                      Optimize asset utilization to extend the lifecycle of key
+                      equipment.
                     </li>
                     <li>
                       <span>
                         <i className="fa-solid fa-check"></i>
                       </span>
-                      High data fidelity for precise, actionable insights in
-                      energy management.
+                      Boost sustainability efforts and reduce carbon emissions.
                     </li>
                   </ul>
                 </div>

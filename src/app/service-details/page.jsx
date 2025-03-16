@@ -28,6 +28,7 @@ const ServiceDetail = () => {
           </div>
         </div>
       </section>
+
       <section className="service-about section-gap">
         <div className="container">
           <div className="row">

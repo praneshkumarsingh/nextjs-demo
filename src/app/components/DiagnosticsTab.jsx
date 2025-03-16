@@ -13,38 +13,39 @@ const DiagnosticsTab = () => {
       onSelect={(k) => setKey(k)}
       className="mb-3 service-tab-top"
     >
-      <Tab eventKey="home" title="Energy Management">
+      <Tab eventKey="home" title="Automation & Maintenance">
         <div className="service-tab-content">
           <h3 className="service-tab-content-title">
-            Cost-effective monitoring for smart energy management!
+            Automated diagnostics for cost-effective maintenance
           </h3>
           <p>
-            Elile’s monitoring and alerting solutions provide real-time insights
-            into operational parameters, helping maintain large-scale power
-            production and distribution infrastructure. We continuously monitor
-            KPIs and system metrics with advanced algorithms, and digital twins
-            that simulate the physical systems in a virtual environment,
-            providing a comprehensive view of system health. Our centralized
-            dashboards offer full transparency, while predictive maintenance
-            models pre-emptively identify potential equipment failures,
-            optimizing maintenance schedules to reduce unplanned downtimes.
+            Elile’s diagnostics & remediation solutions leverage automated tools
+            to perform real-time root cause analysis across large-scale energy
+            systems. By integrating digital twins and predictive models, we can
+            precisely forecast efficiency losses and provide actionable insights
+            for immediate remediation. Our diagnostics tools generate detailed
+            reports pinpointing inefficiencies, ensuring energy assets maintain
+            peak performance. These processes are validated through rigorous
+            methodologies to guarantee reliability and accuracy, minimizing
+            downtime and extending asset life.
           </p>
         </div>
       </Tab>
       <Tab eventKey="profile" title="Applications">
         <div className="service-tab-content">
           <h3 className="service-tab-content-title">
-            Production, distribution, and everything in between
+            Production, distribution & performance optimization
           </h3>
           <p>
-            Elile’s monitoring and alerting services are critical for energy
-            producers, distribution companies, and grid operators aiming to
-            maximize operational efficiency. These services provide real-time
-            oversight of complex energy systems, enabling swift action in case
-            of anomalies, and facilitating predictive insights that optimize
-            performance. By proactively monitoring system health, we ensure
-            large-scale operations remain uninterrupted, efficient, and
-            cost-effective.
+            Elile’s services are vital for energy producers, grid operators, and
+            infrastructure managers who need to maintain optimal performance.
+            With real-time diagnostic insights, operators can detect performance
+            degradation, enabling pre-emptive action before minor issues become
+            major problems. These services facilitate efficient energy
+            distribution, optimize production processes, and reduce the risk of
+            unexpected outages. Our diagnostics tools provide an accurate
+            assessment of system health, offering both short-term fixes and
+            long-term maintenance strategies.
           </p>
         </div>
       </Tab>
