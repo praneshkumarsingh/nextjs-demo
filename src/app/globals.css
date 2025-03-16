@@ -457,12 +457,12 @@ footer .widget-title {
 .dropdown-item {
   color: #084838 !important;
   display: block;
-  font-size: 15px;
+  font-size: 14px;
   margin-bottom: 0;
   padding: 7px 15px !important;
   text-transform: capitalize;
   width: 100% !important;
-  font-weight: 700 !important;
+  font-weight: 600 !important;
 }
 
 .dropdown-item:focus,
