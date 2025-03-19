@@ -86,7 +86,8 @@ function page() {
                 <h3>
                   From inefficiency to performance
                   <br />
-                  <span> With the best</span> of AI
+                  With the best
+                  <span> of AI</span>
                 </h3>
               </div>
 
