@@ -392,41 +392,6 @@ const page = () => {
                 <div className="thumb">
                   <img
                     decoding="async"
-                    src="/img/team/5.jpg"
-                    alt="Dilabs"
-                    className="img-fluid"
-                  />
-                  <div className="team-info">
-                    <div className="team-social">
-                      <div className="share-link">
-                        <i className="fa-solid fa-binoculars"></i>
-                        <ul>
-                          <li className="linkedin">
-                            <Link href="#">
-                              <i className="fa-brands fa-linkedin-in"></i>
-                            </Link>
-                          </li>
-                        </ul>
-                      </div>
-                      <Link href="#">
-                        <i className="fa-solid fa-envelope"></i>
-                      </Link>
-                    </div>
-                    <div className="content">
-                      <h4>
-                        <Link href="/">Ali Wahab</Link>
-                      </h4>
-                      <span>Software Engineer </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-4 col-md-6 mb-4">
-              <div className="team-style-one">
-                <div className="thumb">
-                  <img
-                    decoding="async"
                     src="/img/team/6.jpg"
                     alt="Dilabs"
                     className="img-fluid"
@@ -452,6 +417,41 @@ const page = () => {
                         <Link href="/">Tugba H. Soner</Link>
                       </h4>
                       <span>Director of Product</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-4 col-md-6 mb-4">
+              <div className="team-style-one">
+                <div className="thumb">
+                  <img
+                    decoding="async"
+                    src="/img/team/5.jpg"
+                    alt="Dilabs"
+                    className="img-fluid"
+                  />
+                  <div className="team-info">
+                    <div className="team-social">
+                      <div className="share-link">
+                        <i className="fa-solid fa-binoculars"></i>
+                        <ul>
+                          <li className="linkedin">
+                            <Link href="#">
+                              <i className="fa-brands fa-linkedin-in"></i>
+                            </Link>
+                          </li>
+                        </ul>
+                      </div>
+                      <Link href="#">
+                        <i className="fa-solid fa-envelope"></i>
+                      </Link>
+                    </div>
+                    <div className="content">
+                      <h4>
+                        <Link href="/">Ali Wahab</Link>
+                      </h4>
+                      <span>Software Engineer </span>
                     </div>
                   </div>
                 </div>
