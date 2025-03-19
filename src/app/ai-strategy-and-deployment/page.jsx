@@ -110,9 +110,7 @@ const ServiceDetail = () => {
           <div className="row">
             <div className="col-lg-8 offset-lg-2">
               <div className="site-heading text-center">
-                <h2 className="title">
-                  Scalable, strategic & impact-driven deployment
-                </h2>
+                <h2 className="title">Scalable, strategic & impact-driven</h2>
               </div>
             </div>
           </div>
