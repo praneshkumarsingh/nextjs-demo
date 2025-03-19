@@ -127,8 +127,7 @@ const ServiceDetail = () => {
             <div className="col-lg-8 offset-lg-2">
               <div className="site-heading text-center">
                 <h2 className="title">
-                  Designed for tangible business <br />
-                  outcomes
+                  Designed for tangible business outcomes
                 </h2>
               </div>
             </div>

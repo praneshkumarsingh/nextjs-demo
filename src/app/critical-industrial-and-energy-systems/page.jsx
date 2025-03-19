@@ -37,7 +37,7 @@ const ServiceDetail = () => {
             <div className="col-xl-6">
               <div className="whyChoose-caption me-3">
                 <h2 className="title mb-4">
-                  AI for Mission-Critical Infrastructure
+                  AI for mission-critical infrastructure
                 </h2>
                 <p className="desc">
                   In high-stakes environments, failure isn’t an option. Elile’s

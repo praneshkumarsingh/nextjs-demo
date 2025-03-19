@@ -33,7 +33,7 @@ const ServiceDetail = () => {
           <div className="row">
             <div className="col-xl-6">
               <div className="whyChoose-caption me-3">
-                <h2 className="title mb-4">End-to-End AI Implementation</h2>
+                <h2 className="title mb-4">End-to-end AI Implementation</h2>
                 <p className="desc">
                   Deploying AI is not just about technology - it’s about
                   strategic implementation, understanding your exact business
@@ -129,8 +129,7 @@ const ServiceDetail = () => {
             <div className="col-lg-8 offset-lg-2">
               <div className="site-heading text-center">
                 <h2 className="title">
-                  Powerful AI Features Built for <br />
-                  Marketing
+                  Powerful AI Features Built for Marketing
                 </h2>
               </div>
             </div>

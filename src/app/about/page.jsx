@@ -229,7 +229,7 @@ const page = () => {
             <div className="col-lg-8 offset-lg-2">
               <div className="site-heading text-center">
                 <h2 className="title">
-                  Our professional <br /> expert team members
+                  Our super cool team of <br /> professionals
                 </h2>
               </div>
             </div>

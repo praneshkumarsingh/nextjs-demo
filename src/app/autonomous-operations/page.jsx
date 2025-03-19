@@ -126,9 +126,7 @@ const ServiceDetail = () => {
             <div className="col-lg-8 offset-lg-2">
               <div className="site-heading text-center">
                 <h2 className="title">
-                  Autonomous intelligence with real
-                  <br />
-                  impact
+                  Autonomous intelligence with real impact
                 </h2>
               </div>
             </div>
