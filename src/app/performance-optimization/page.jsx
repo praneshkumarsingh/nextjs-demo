@@ -40,7 +40,10 @@ const Page = () => {
             </div>
             <div className="col-lg-6">
               <div className="service-tab-img">
-                <img src="/img/performance-img.png" className="img-fluid" />
+                <img
+                  src="/img/performance-dashboard.png"
+                  className="img-fluid"
+                />
               </div>
             </div>
           </div>

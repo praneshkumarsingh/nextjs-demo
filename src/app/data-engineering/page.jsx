@@ -38,7 +38,7 @@ const Page = () => {
             </div>
             <div className="col-lg-6">
               <div className="service-tab-img">
-                <img src="/img/dashboard.png" className="img-fluid" />
+                <img src="/img/data-engineering.png" className="img-fluid" />
               </div>
             </div>
           </div>
