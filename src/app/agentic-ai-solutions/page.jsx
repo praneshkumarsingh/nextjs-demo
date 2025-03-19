@@ -54,10 +54,7 @@ const ServiceDetail = () => {
             </div>
             <div className="col-xl-6">
               <div className="whyChooseSec-box">
-                <h3>
-                  <img src="/img/unique.svg" className="img-fluid"></img>
-                  Distributed Intelligence
-                </h3>
+                <h3>Distributed Intelligence</h3>
                 <p>
                   Multi-agent systems coordinate complex tasks dynamically
                   across operations, ensuring seamless decision-making and
@@ -65,30 +62,21 @@ const ServiceDetail = () => {
                 </p>
               </div>
               <div className="whyChooseSec-box">
-                <h3>
-                  <img src="/img/unique.svg" className="img-fluid"></img>
-                  Autonomous Collaboration
-                </h3>
+                <h3>Autonomous Collaboration</h3>
                 <p>
                   AI agents communicate, strategize, and optimize processes
                   without human intervention, enhancing operational autonomy.
                 </p>
               </div>
               <div className="whyChooseSec-box">
-                <h3>
-                  <img src="/img/unique.svg" className="img-fluid"></img>
-                  Adaptive Learning
-                </h3>
+                <h3>Adaptive Learning</h3>
                 <p>
                   Reinforcement learning-driven AI evolves continuously based on
                   real-time feedback, adapting to new challenges and conditions.
                 </p>
               </div>
               <div className="whyChooseSec-box">
-                <h3>
-                  <img src="/img/unique.svg" className="img-fluid"></img>
-                  Interoperability Engine
-                </h3>
+                <h3>Interoperability Engine</h3>
                 <p>
                   Seamless integration with SCADA, IoT, cloud, and edge
                   computing systems enables unified, cross-platform
@@ -96,10 +84,7 @@ const ServiceDetail = () => {
                 </p>
               </div>
               <div className="whyChooseSec-box">
-                <h3>
-                  <img src="/img/unique.svg" className="img-fluid"></img>
-                  Real-Time Optimization
-                </h3>
+                <h3>Real-Time Optimization</h3>
                 <p>
                   Predictive adjustments ensure peak efficiency across
                   industrial workflows, reducing inefficiencies and maximizing
@@ -107,10 +92,7 @@ const ServiceDetail = () => {
                 </p>
               </div>
               <div className="whyChooseSec-box">
-                <h3>
-                  <img src="/img/unique.svg" className="img-fluid"></img>
-                  Scalable Multi-Agent Framework
-                </h3>
+                <h3>Scalable Multi-Agent Framework</h3>
                 <p>
                   AI networks scale dynamically for growing industrial demands,
                   ensuring future-proof, adaptive intelligence.
