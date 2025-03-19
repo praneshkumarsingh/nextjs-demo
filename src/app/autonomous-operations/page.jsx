@@ -56,60 +56,42 @@ const ServiceDetail = () => {
             </div>
             <div className="col-xl-6">
               <div className="whyChooseSec-box">
-                <h3>
-                  <img src="/img/unique.svg" className="img-fluid"></img>
-                  Self-Healing Systems
-                </h3>
+                <h3>Self-Healing Systems</h3>
                 <p>
                   AI predicts failures, autonomously initiates corrective
                   actions, and optimizes system recovery.
                 </p>
               </div>
               <div className="whyChooseSec-box">
-                <h3>
-                  <img src="/img/unique.svg" className="img-fluid"></img>
-                  Dynamic Process Control
-                </h3>
+                <h3>Dynamic Process Control</h3>
                 <p>
                   Autonomous AI continuously regulates industrial workflows,
                   enhancing precision and efficiency.
                 </p>
               </div>
               <div className="whyChooseSec-box">
-                <h3>
-                  <img src="/img/unique.svg" className="img-fluid"></img>
-                  Reduced Human Intervention
-                </h3>
+                <h3>Reduced Human Intervention</h3>
                 <p>
                   AI-driven automation minimizes manual oversight, ensuring
                   seamless and intelligent operations.
                 </p>
               </div>
               <div className="whyChooseSec-box">
-                <h3>
-                  <img src="/img/unique.svg" className="img-fluid"></img>
-                  Multi-Layered Intelligence
-                </h3>
+                <h3>Multi-Layered Intelligence</h3>
                 <p>
                   Optimizes multiple operational parameters simultaneously for
                   adaptive efficiency gains.
                 </p>
               </div>
               <div className="whyChooseSec-box">
-                <h3>
-                  <img src="/img/unique.svg" className="img-fluid"></img>
-                  Predictive Workload Management
-                </h3>
+                <h3>Predictive Workload Management</h3>
                 <p>
                   Dynamically allocates resources based on real-time demand
                   fluctuations and load conditions.
                 </p>
               </div>
               <div className="whyChooseSec-box">
-                <h3>
-                  <img src="/img/unique.svg" className="img-fluid"></img>
-                  Uninterrupted Operations
-                </h3>
+                <h3>Uninterrupted Operations</h3>
                 <p>
                   AI-powered fault tolerance proactively detects and mitigates
                   risks to ensure system reliability.

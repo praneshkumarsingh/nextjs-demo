@@ -62,60 +62,42 @@ const ServiceDetail = () => {
             </div>
             <div className="col-xl-6">
               <div className="whyChooseSec-box">
-                <h3>
-                  <img src="/img/unique.svg" className="img-fluid"></img>
-                  Resilient AI Framework
-                </h3>
+                <h3>Resilient AI Framework</h3>
                 <p>
                   Ensures continuous, failure-proof operations in high-stakes
                   industrial environments with real-time anomaly detection.
                 </p>
               </div>
               <div className="whyChooseSec-box">
-                <h3>
-                  <img src="/img/unique.svg" className="img-fluid"></img>
-                  Cyber-Physical Security
-                </h3>
+                <h3>Cyber-Physical Security</h3>
                 <p>
                   AI-driven risk mitigation safeguards critical infrastructure,
                   industrial control systems, and OT networks from disruptions.
                 </p>
               </div>
               <div className="whyChooseSec-box">
-                <h3>
-                  <img src="/img/unique.svg" className="img-fluid"></img>
-                  Dynamic Grid & Energy Management
-                </h3>
+                <h3>Dynamic Grid & Energy Management</h3>
                 <p>
                   Autonomous load balancing optimizes energy distribution, grid
                   stability, and real-time power flow regulation.
                 </p>
               </div>
               <div className="whyChooseSec-box">
-                <h3>
-                  <img src="/img/unique.svg" className="img-fluid"></img>
-                  Fault-Tolerant AI Systems
-                </h3>
+                <h3>Fault-Tolerant AI Systems</h3>
                 <p>
                   Prevents system-wide failures through predictive analytics,
                   multi-agent diagnostics, and intelligent redundancy models.
                 </p>
               </div>
               <div className="whyChooseSec-box">
-                <h3>
-                  <img src="/img/unique.svg" className="img-fluid"></img>
-                  Integrated AI-Driven Redundancy
-                </h3>
+                <h3>Integrated AI-Driven Redundancy</h3>
                 <p>
                   Multiple AI-powered fail-safes ensure uninterrupted
                   mission-critical operations with adaptive response mechanisms.
                 </p>
               </div>
               <div className="whyChooseSec-box">
-                <h3>
-                  <img src="/img/unique.svg" className="img-fluid"></img>
-                  Scale for Large-Scale Operations
-                </h3>
+                <h3>Scale for Large-Scale Operations</h3>
                 <p>
                   Expands AI-driven intelligence seamlessly across industrial
                   assets, decentralized energy networks, and hyperscale

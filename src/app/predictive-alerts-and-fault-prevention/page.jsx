@@ -63,60 +63,42 @@ const ServiceDetail = () => {
             </div>
             <div className="col-xl-6">
               <div className="whyChooseSec-box">
-                <h3>
-                  <img src="/img/unique.svg" className="img-fluid"></img>
-                  Real-Time Fault Prediction
-                </h3>
+                <h3>Real-Time Fault Prediction</h3>
                 <p>
                   Continuously scans system data to detect anomalies, leveraging
                   predictive modelling for proactive failure mitigation.
                 </p>
               </div>
               <div className="whyChooseSec-box">
-                <h3>
-                  <img src="/img/unique.svg" className="img-fluid"></img>
-                  AI-Powered Root Cause Analysis
-                </h3>
+                <h3>AI-Powered Root Cause Analysis</h3>
                 <p>
                   Identifies hidden failure patterns with advanced machine
                   learning, enabling precise diagnostics and faster resolution.
                 </p>
               </div>
               <div className="whyChooseSec-box">
-                <h3>
-                  <img src="/img/unique.svg" className="img-fluid"></img>
-                  Automated Response Triggers
-                </h3>
+                <h3>Automated Response Triggers</h3>
                 <p>
                   Instant AI-driven alerts activate mitigation protocols,
                   preventing cascading system failures and costly breakdowns.
                 </p>
               </div>
               <div className="whyChooseSec-box">
-                <h3>
-                  <img src="/img/unique.svg" className="img-fluid"></img>
-                  Self-Correcting Mechanisms
-                </h3>
+                <h3>Self-Correcting Mechanisms</h3>
                 <p>
                   Autonomous AI adjustments optimize asset performance in real
                   time, reducing long-term maintenance interventions.
                 </p>
               </div>
               <div className="whyChooseSec-box">
-                <h3>
-                  <img src="/img/unique.svg" className="img-fluid"></img>
-                  Failure Risk Optimization
-                </h3>
+                <h3>Failure Risk Optimization</h3>
                 <p>
                   Predicts, prioritizes, and mitigates risks by dynamically
                   adjusting operational parameters to prevent asset degradation.
                 </p>
               </div>
               <div className="whyChooseSec-box">
-                <h3>
-                  <img src="/img/unique.svg" className="img-fluid"></img>
-                  Multi-Layered Protection
-                </h3>
+                <h3>Multi-Layered Protection</h3>
                 <p>
                   Integrates real-time analytics, historical failure modelling,
                   and anomaly detection to enhance system resilience and

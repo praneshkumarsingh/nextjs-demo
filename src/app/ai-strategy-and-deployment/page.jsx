@@ -57,40 +57,28 @@ const ServiceDetail = () => {
             </div>
             <div className="col-xl-6">
               <div className="whyChooseSec-box">
-                <h3>
-                  <img src="/img/unique.svg" className="img-fluid"></img>
-                  Custom AI Frameworks
-                </h3>
+                <h3>Custom AI Frameworks</h3>
                 <p>
                   Tailored architectures engineered for enterprise-scale AI
                   adoption, optimization, and cross-domain adaptability.
                 </p>
               </div>
               <div className="whyChooseSec-box">
-                <h3>
-                  <img src="/img/unique.svg" className="img-fluid"></img>
-                  LLM & Multi-Agent Integration
-                </h3>
+                <h3>LLM & Multi-Agent Integration</h3>
                 <p>
                   Strategic deployment of LLMs and intelligent agent networks
                   for real-time industrial automation and decision intelligence.
                 </p>
               </div>
               <div className="whyChooseSec-box">
-                <h3>
-                  <img src="/img/unique.svg" className="img-fluid"></img>
-                  Seamless Deployment Pipelines
-                </h3>
+                <h3>Seamless Deployment Pipelines</h3>
                 <p>
                   Effortless AI integration into legacy, cloud-native, and
                   hybrid infrastructures without operational disruptions.
                 </p>
               </div>
               <div className="whyChooseSec-box">
-                <h3>
-                  <img src="/img/unique.svg" className="img-fluid"></img>
-                  Hybrid Cloud & Edge AI Support
-                </h3>
+                <h3>Hybrid Cloud & Edge AI Support</h3>
                 <p>
                   Optimized AI processing across centralized cloud platforms,
                   decentralized networks, and edge computing environments for
@@ -98,10 +86,7 @@ const ServiceDetail = () => {
                 </p>
               </div>
               <div className="whyChooseSec-box">
-                <h3>
-                  <img src="/img/unique.svg" className="img-fluid"></img>
-                  Scalability for Future Growth
-                </h3>
+                <h3>Scalability for Future Growth</h3>
                 <p>
                   AI-powered predictive models, generative intelligence, and
                   self-optimizing systems dynamically evolve to meet expanding
@@ -109,10 +94,7 @@ const ServiceDetail = () => {
                 </p>
               </div>
               <div className="whyChooseSec-box">
-                <h3>
-                  <img src="/img/unique.svg" className="img-fluid"></img>
-                  Enterprise AI Governance
-                </h3>
+                <h3>Enterprise AI Governance</h3>
                 <p>
                   Ensures transparent, ethical AI deployment with built-in
                   compliance, security, and regulatory adherence frameworks.

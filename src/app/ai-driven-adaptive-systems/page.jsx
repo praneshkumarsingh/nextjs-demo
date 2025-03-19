@@ -59,60 +59,42 @@ const ServiceDetail = () => {
             </div>
             <div className="col-xl-6">
               <div className="whyChooseSec-box">
-                <h3>
-                  <img src="/img/unique.svg" className="img-fluid"></img>
-                  Self-Optimizing AI Models
-                </h3>
+                <h3>Self-Optimizing AI Models</h3>
                 <p>
                   Continuously refines strategies and performance based on
                   real-time operational data.
                 </p>
               </div>
               <div className="whyChooseSec-box">
-                <h3>
-                  <img src="/img/unique.svg" className="img-fluid"></img>
-                  Predictive Adaptation
-                </h3>
+                <h3>Predictive Adaptation</h3>
                 <p>
                   Anticipates and adjusts system controls dynamically to sustain
                   peak efficiency.
                 </p>
               </div>
               <div className="whyChooseSec-box">
-                <h3>
-                  <img src="/img/unique.svg" className="img-fluid"></img>
-                  Real-Time Environmental Sensing
-                </h3>
+                <h3>Real-Time Environmental Sensing</h3>
                 <p>
                   Leverages IoT and edge data for context-aware decision-making
                   and automation.
                 </p>
               </div>
               <div className="whyChooseSec-box">
-                <h3>
-                  <img src="/img/unique.svg" className="img-fluid"></img>
-                  Reinforcement Learning Integration
-                </h3>
+                <h3>Reinforcement Learning Integration</h3>
                 <p>
                   AI-driven models evolve autonomously through feedback loops
                   and real-world interactions.
                 </p>
               </div>
               <div className="whyChooseSec-box">
-                <h3>
-                  <img src="/img/unique.svg" className="img-fluid"></img>
-                  Intelligent Load Management
-                </h3>
+                <h3>Intelligent Load Management</h3>
                 <p>
                   Optimizes energy distribution, workload balancing, and
                   resource utilization efficiently.
                 </p>
               </div>
               <div className="whyChooseSec-box">
-                <h3>
-                  <img src="/img/unique.svg" className="img-fluid"></img>
-                  Enhanced Decision Automation
-                </h3>
+                <h3>Enhanced Decision Automation</h3>
                 <p>
                   Reduces complexity with AI-driven, self-learning control
                   systems that adapt instantly.
