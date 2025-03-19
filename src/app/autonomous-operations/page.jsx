@@ -126,8 +126,9 @@ const ServiceDetail = () => {
             <div className="col-lg-8 offset-lg-2">
               <div className="site-heading text-center">
                 <h2 className="title">
-                  Powerful AI Features Built for <br />
-                  Marketing
+                  Autonomous intelligence with real
+                  <br />
+                  impact
                 </h2>
               </div>
             </div>
@@ -137,24 +138,24 @@ const ServiceDetail = () => {
               <div className="col-lg-6">
                 <div className="benfit-content me-5">
                   <p className="desc">
-                    Sit dui ligula viverra eget volutpat mauris. Nibh sagittis
-                    viverra et rhoncus bibendum luctus. Tristique interdum
-                    cursus dictum gravida sed feugiat morbi. Id est sed urna
-                    maecenas est placerat aliquam et quis. Feugiat vitae justo
-                    mi justo nunc senectus sapien non.
+                    Elile’s Autonomous Operations integrate self-learning AI,
+                    real-time control loops, and dynamic workload management to
+                    ensure continuous, self-optimizing performance. Unlike
+                    rule-based automation, our AI predicts inefficiencies,
+                    initiates proactive interventions, and self-adjusts at
+                    sub-millisecond speeds.
                   </p>
                   <p className="desc">
-                    Sit dui ligula viverra eget volutpat mauris. Nibh sagittis
-                    viverra et rhoncus bibendum luctus. Tristique interdum
-                    cursus dictum gravida sed feugiat morbi. Id est sed urna
-                    maecenas est placerat aliquam et quis. Feugiat vitae justo
-                    mi justo nunc senectus sapien non. Tristique tellus ac proin
-                    integer. Vitae elementum vitae sem arcu. Lorem aliquam.
+                    With multi-layered decision intelligence, each AI agent
+                    autonomously allocates resources, tunes operational
+                    parameters, and regulates system stability. Our framework
+                    guarantees ultra-low latency execution, while reinforcement
+                    learning models enhance adaptability over time.
                   </p>
                   <p className="desc">
-                    Sit dui ligula viverra eget volutpat mauris. Nibh sagittis
-                    viverra et rhoncus bibendum luctus. Tristique interdum
-                    cursus dictum gravida sed feugiat morbi.
+                    This results in a truly self-sustaining AI ecosystem that
+                    delivers industrial-scale precision, resilience, and fault
+                    tolerance, with near-zero human intervention.
                   </p>
                 </div>
               </div>
@@ -166,9 +167,7 @@ const ServiceDetail = () => {
                         <img src="/check.svg" />
                       </div>
                       <div className="text">
-                        <h3>
-                          Quis sit in id egestas turpis vitae tristique senectus
-                        </h3>
+                        <h3>80% fewer system failures with predictive AI</h3>
                       </div>
                     </li>
                     <li>
@@ -177,7 +176,7 @@ const ServiceDetail = () => {
                       </div>
                       <div className="text">
                         <h3>
-                          Neque eleifend amet ut vel fusce facilisis nulla
+                          60% faster anomaly detection via real-time control
                         </h3>
                       </div>
                     </li>
@@ -186,10 +185,7 @@ const ServiceDetail = () => {
                         <img src="/check.svg" />
                       </div>
                       <div className="text">
-                        <h3>
-                          Nulla at diam cursus lorem nunc facilisis non
-                          phasellus
-                        </h3>
+                        <h3>40% lower costs by reducing manual oversight</h3>
                       </div>
                     </li>
                     <li>
@@ -198,7 +194,7 @@ const ServiceDetail = () => {
                       </div>
                       <div className="text">
                         <h3>
-                          Nullam faucibus facilisis nunc turpis adipiscing
+                          99.98% system uptime with autonomous fault mitigation
                         </h3>
                       </div>
                     </li>
@@ -208,7 +204,7 @@ const ServiceDetail = () => {
                       </div>
                       <div className="text">
                         <h3>
-                          Quis sit in id egestas turpis vitae tristique senectus
+                          3x more efficient resource allocation via adaptive AI
                         </h3>
                       </div>
                     </li>

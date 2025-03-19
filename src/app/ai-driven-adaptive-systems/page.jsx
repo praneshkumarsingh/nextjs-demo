@@ -129,8 +129,8 @@ const ServiceDetail = () => {
             <div className="col-lg-8 offset-lg-2">
               <div className="site-heading text-center">
                 <h2 className="title">
-                  Powerful AI Features Built for <br />
-                  Marketing
+                  Evolving AI for continuous <br />
+                  optimization
                 </h2>
               </div>
             </div>
@@ -140,24 +140,24 @@ const ServiceDetail = () => {
               <div className="col-lg-6">
                 <div className="benfit-content me-5">
                   <p className="desc">
-                    Sit dui ligula viverra eget volutpat mauris. Nibh sagittis
-                    viverra et rhoncus bibendum luctus. Tristique interdum
-                    cursus dictum gravida sed feugiat morbi. Id est sed urna
-                    maecenas est placerat aliquam et quis. Feugiat vitae justo
-                    mi justo nunc senectus sapien non.
+                    Elile’s AI-Driven Adaptive Systems integrate reinforcement
+                    learning, real-time environmental sensing, and
+                    self-optimizing neural networks to create AI that
+                    continuously evolves. Unlike static models, our AI detects
+                    operational fluctuations, adapts decision pathways, and
+                    autonomously refines its performance through iterative
+                    learning.
                   </p>
                   <p className="desc">
-                    Sit dui ligula viverra eget volutpat mauris. Nibh sagittis
-                    viverra et rhoncus bibendum luctus. Tristique interdum
-                    cursus dictum gravida sed feugiat morbi. Id est sed urna
-                    maecenas est placerat aliquam et quis. Feugiat vitae justo
-                    mi justo nunc senectus sapien non. Tristique tellus ac proin
-                    integer. Vitae elementum vitae sem arcu. Lorem aliquam.
+                    Leveraging edge-AI integration and multi-layered feedback
+                    loops, it dynamically adjusts resource allocation, optimizes
+                    workloads, and prevents inefficiencies at sub-second speeds.
                   </p>
                   <p className="desc">
-                    Sit dui ligula viverra eget volutpat mauris. Nibh sagittis
-                    viverra et rhoncus bibendum luctus. Tristique interdum
-                    cursus dictum gravida sed feugiat morbi.
+                    Our hybrid adaptive architecture ensures AI remains
+                    resilient, scalable, and responsive to evolving industry
+                    needs, delivering unparalleled efficiency, sustainability,
+                    and predictive intelligence, without human intervention.
                   </p>
                 </div>
               </div>
@@ -170,7 +170,8 @@ const ServiceDetail = () => {
                       </div>
                       <div className="text">
                         <h3>
-                          Quis sit in id egestas turpis vitae tristique senectus
+                          65% faster adaptation to changing operational
+                          conditions
                         </h3>
                       </div>
                     </li>
@@ -180,7 +181,8 @@ const ServiceDetail = () => {
                       </div>
                       <div className="text">
                         <h3>
-                          Neque eleifend amet ut vel fusce facilisis nulla
+                          50% better resource utilization via real-time AI
+                          adjustments
                         </h3>
                       </div>
                     </li>
@@ -190,8 +192,8 @@ const ServiceDetail = () => {
                       </div>
                       <div className="text">
                         <h3>
-                          Nulla at diam cursus lorem nunc facilisis non
-                          phasellus
+                          45% reduction in energy waste through adaptive load
+                          balancing
                         </h3>
                       </div>
                     </li>
@@ -201,7 +203,7 @@ const ServiceDetail = () => {
                       </div>
                       <div className="text">
                         <h3>
-                          Nullam faucibus facilisis nunc turpis adipiscing
+                          30% fewer inefficiencies with self-learning AI models
                         </h3>
                       </div>
                     </li>
@@ -211,7 +213,7 @@ const ServiceDetail = () => {
                       </div>
                       <div className="text">
                         <h3>
-                          Quis sit in id egestas turpis vitae tristique senectus
+                          5x smarter decision-making via reinforcement learning
                         </h3>
                       </div>
                     </li>

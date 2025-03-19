@@ -42,7 +42,7 @@ const ServiceDetail = () => {
                 </p>
                 <p className="desc">
                   From industrial automation to mission-critical ecosystems, our
-                  AI doesn’t just analyze -- it orchestrates seamless, adaptive
+                  AI doesn’t just analyze, it orchestrates seamless, adaptive
                   operations that drive efficiency and eliminate inefficiencies.
                 </p>
                 <div className="whyChoose-btn mt-5">
@@ -127,8 +127,8 @@ const ServiceDetail = () => {
             <div className="col-lg-8 offset-lg-2">
               <div className="site-heading text-center">
                 <h2 className="title">
-                  Powerful AI Features Built for <br />
-                  Marketing
+                  Designed for tangible business <br />
+                  outcomes
                 </h2>
               </div>
             </div>
@@ -138,24 +138,24 @@ const ServiceDetail = () => {
               <div className="col-lg-6">
                 <div className="benfit-content me-5">
                   <p className="desc">
-                    Sit dui ligula viverra eget volutpat mauris. Nibh sagittis
-                    viverra et rhoncus bibendum luctus. Tristique interdum
-                    cursus dictum gravida sed feugiat morbi. Id est sed urna
-                    maecenas est placerat aliquam et quis. Feugiat vitae justo
-                    mi justo nunc senectus sapien non.
+                    Elile’s Agentic AI Solutions leverage multi-agent
+                    intelligence, SLM-powered decision-making, and decentralized
+                    execution frameworks. Unlike conventional AI, our
+                    distributed agent architecture enables adaptive intelligence
+                    across mission-critical ecosystems.
                   </p>
                   <p className="desc">
-                    Sit dui ligula viverra eget volutpat mauris. Nibh sagittis
-                    viverra et rhoncus bibendum luctus. Tristique interdum
-                    cursus dictum gravida sed feugiat morbi. Id est sed urna
-                    maecenas est placerat aliquam et quis. Feugiat vitae justo
-                    mi justo nunc senectus sapien non. Tristique tellus ac proin
-                    integer. Vitae elementum vitae sem arcu. Lorem aliquam.
+                    Our LLM-integrated SLMs create industry-specific AI agents
+                    that self-optimize without human intervention. With
+                    SCADA-native interoperability and zero-latency inference via
+                    GPU acceleration, our AI agents execute predictive
+                    adjustments at sub-millisecond speeds.
                   </p>
                   <p className="desc">
-                    Sit dui ligula viverra eget volutpat mauris. Nibh sagittis
-                    viverra et rhoncus bibendum luctus. Tristique interdum
-                    cursus dictum gravida sed feugiat morbi.
+                    The result? Autonomous orchestration, ultra-low failure
+                    rates, and industrial-scale scalability, making our system
+                    the most robust, adaptable, and self-learning AI framework
+                    available today
                   </p>
                 </div>
               </div>
@@ -168,7 +168,8 @@ const ServiceDetail = () => {
                       </div>
                       <div className="text">
                         <h3>
-                          Quis sit in id egestas turpis vitae tristique senectus
+                          50% higher efficiency via real-time multi-agent
+                          coordination
                         </h3>
                       </div>
                     </li>
@@ -178,7 +179,8 @@ const ServiceDetail = () => {
                       </div>
                       <div className="text">
                         <h3>
-                          Neque eleifend amet ut vel fusce facilisis nulla
+                          70% less unplanned downtime with predictive,
+                          self-healing AI
                         </h3>
                       </div>
                     </li>
@@ -188,8 +190,8 @@ const ServiceDetail = () => {
                       </div>
                       <div className="text">
                         <h3>
-                          Nulla at diam cursus lorem nunc facilisis non
-                          phasellus
+                          30% lower operational costs by eliminating manual
+                          tasks
                         </h3>
                       </div>
                     </li>
@@ -199,7 +201,7 @@ const ServiceDetail = () => {
                       </div>
                       <div className="text">
                         <h3>
-                          Nullam faucibus facilisis nunc turpis adipiscing
+                          99.9% autonomous execution for uninterrupted workflows
                         </h3>
                       </div>
                     </li>
@@ -209,7 +211,7 @@ const ServiceDetail = () => {
                       </div>
                       <div className="text">
                         <h3>
-                          Quis sit in id egestas turpis vitae tristique senectus
+                          5x faster deployment with vendor-agnostic, scalable AI
                         </h3>
                       </div>
                     </li>
