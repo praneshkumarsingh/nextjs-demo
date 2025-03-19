@@ -115,8 +115,7 @@ const ServiceDetail = () => {
             <div className="col-lg-8 offset-lg-2">
               <div className="site-heading text-center">
                 <h2 className="title">
-                  Powerful AI Features Built for <br />
-                  Marketing
+                  AI for resilience, security & zero downtime
                 </h2>
               </div>
             </div>
@@ -126,24 +125,25 @@ const ServiceDetail = () => {
               <div className="col-lg-6">
                 <div className="benfit-content me-5">
                   <p className="desc">
-                    Sit dui ligula viverra eget volutpat mauris. Nibh sagittis
-                    viverra et rhoncus bibendum luctus. Tristique interdum
-                    cursus dictum gravida sed feugiat morbi. Id est sed urna
-                    maecenas est placerat aliquam et quis. Feugiat vitae justo
-                    mi justo nunc senectus sapien non.
+                    Elile’s AI-driven critical systems integrate multi-agent
+                    redundancy models, predictive fault prevention, and
+                    cyber-physical security frameworks to ensure uninterrupted
+                    industrial and energy operations.
                   </p>
                   <p className="desc">
-                    Sit dui ligula viverra eget volutpat mauris. Nibh sagittis
-                    viverra et rhoncus bibendum luctus. Tristique interdum
-                    cursus dictum gravida sed feugiat morbi. Id est sed urna
-                    maecenas est placerat aliquam et quis. Feugiat vitae justo
-                    mi justo nunc senectus sapien non. Tristique tellus ac proin
-                    integer. Vitae elementum vitae sem arcu. Lorem aliquam.
+                    Our AI autonomously detects vulnerabilities, optimizes load
+                    balancing, and mitigates systemic risks in real-time. With
+                    self-learning failure diagnostics, OT security
+                    fortification, and intelligent grid orchestration, we enable
+                    autonomous power flow regulation, adaptive infrastructure
+                    scaling, and mission-critical resilience.
                   </p>
                   <p className="desc">
-                    Sit dui ligula viverra eget volutpat mauris. Nibh sagittis
-                    viverra et rhoncus bibendum luctus. Tristique interdum
-                    cursus dictum gravida sed feugiat morbi.
+                    AI-driven self-healing algorithms continuously adjust to
+                    fluctuating conditions, preventing failures before they
+                    escalate. Designed for decentralized energy networks,
+                    hyperscale computing, and industrial automation, our system
+                    ensures future-proof, fail-safe performance.
                   </p>
                 </div>
               </div>
@@ -156,7 +156,8 @@ const ServiceDetail = () => {
                       </div>
                       <div className="text">
                         <h3>
-                          Quis sit in id egestas turpis vitae tristique senectus
+                          90% reduction in system-wide failures via AI-driven
+                          redundancy
                         </h3>
                       </div>
                     </li>
@@ -166,7 +167,8 @@ const ServiceDetail = () => {
                       </div>
                       <div className="text">
                         <h3>
-                          Neque eleifend amet ut vel fusce facilisis nulla
+                          75% faster threat detection with cyber-physical
+                          security AI
                         </h3>
                       </div>
                     </li>
@@ -176,8 +178,8 @@ const ServiceDetail = () => {
                       </div>
                       <div className="text">
                         <h3>
-                          Nulla at diam cursus lorem nunc facilisis non
-                          phasellus
+                          50% more efficient energy management via AI
+                          optimization
                         </h3>
                       </div>
                     </li>
@@ -187,7 +189,8 @@ const ServiceDetail = () => {
                       </div>
                       <div className="text">
                         <h3>
-                          Nullam faucibus facilisis nunc turpis adipiscing
+                          40% savings in infrastructure maintenance & failure
+                          prevention
                         </h3>
                       </div>
                     </li>
@@ -196,9 +199,7 @@ const ServiceDetail = () => {
                         <img src="/check.svg" />
                       </div>
                       <div className="text">
-                        <h3>
-                          Quis sit in id egestas turpis vitae tristique senectus
-                        </h3>
+                        <h3>99.999% uptime for mission-critical operations</h3>
                       </div>
                     </li>
                   </ul>

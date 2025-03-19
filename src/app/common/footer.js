@@ -51,9 +51,9 @@ const Footer = () => {
                       <li className="menu-item">
                         <a href="/our-ceo">Meet Our CEO</a>
                       </li>
-                      <li className="menu-item">
+                      {/* <li className="menu-item">
                         <a href="/expertise">Our Expertise</a>
-                      </li>
+                      </li> */}
                       <li className="menu-item">
                         <a href="/contact">Contact</a>
                       </li>
@@ -92,8 +92,8 @@ const Footer = () => {
                 <div className="contact">
                   <h4 className="widget-title">Newsletter</h4>
                   <p>
-                    Join our subscribers list to get the instant latest news and
-                    special offers.
+                    Join our subscribers list to get the latest updates and
+                    industry insights.
                   </p>
                   <div className="newsletter">
                     <form className="newsletter-form">

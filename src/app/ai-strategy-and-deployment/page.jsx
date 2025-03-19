@@ -111,7 +111,7 @@ const ServiceDetail = () => {
             <div className="col-lg-8 offset-lg-2">
               <div className="site-heading text-center">
                 <h2 className="title">
-                  Powerful AI Features Built for Marketing
+                  Scalable, strategic & impact-driven deployment
                 </h2>
               </div>
             </div>
@@ -121,24 +121,25 @@ const ServiceDetail = () => {
               <div className="col-lg-6">
                 <div className="benfit-content me-5">
                   <p className="desc">
-                    Sit dui ligula viverra eget volutpat mauris. Nibh sagittis
-                    viverra et rhoncus bibendum luctus. Tristique interdum
-                    cursus dictum gravida sed feugiat morbi. Id est sed urna
-                    maecenas est placerat aliquam et quis. Feugiat vitae justo
-                    mi justo nunc senectus sapien non.
+                    Elile’s AI Strategy & Deployment framework delivers
+                    custom-engineered AI architectures that seamlessly integrate
+                    LLMs, multi-agent intelligence, and real-time automation
+                    across industrial ecosystems. Our scalable deployment
+                    pipelines enable zero-downtime AI adoption across hybrid
+                    cloud, edge computing, and on-prem infrastructures.
                   </p>
                   <p className="desc">
-                    Sit dui ligula viverra eget volutpat mauris. Nibh sagittis
-                    viverra et rhoncus bibendum luctus. Tristique interdum
-                    cursus dictum gravida sed feugiat morbi. Id est sed urna
-                    maecenas est placerat aliquam et quis. Feugiat vitae justo
-                    mi justo nunc senectus sapien non. Tristique tellus ac proin
-                    integer. Vitae elementum vitae sem arcu. Lorem aliquam.
+                    Leveraging self-optimizing AI models and generative
+                    intelligence, our strategy ensures adaptive learning,
+                    regulatory compliance, and cross-domain interoperability.
                   </p>
                   <p className="desc">
-                    Sit dui ligula viverra eget volutpat mauris. Nibh sagittis
-                    viverra et rhoncus bibendum luctus. Tristique interdum
-                    cursus dictum gravida sed feugiat morbi.
+                    With autonomous AI governance, security-driven deployment
+                    methodologies, and advanced orchestration engines, we
+                    accelerate AI adoption while ensuring data integrity, risk
+                    mitigation, and seamless enterprise integration. Our
+                    future-proof AI deployment strategies evolve dynamically
+                    with industry advancements.
                   </p>
                 </div>
               </div>
@@ -151,7 +152,8 @@ const ServiceDetail = () => {
                       </div>
                       <div className="text">
                         <h3>
-                          Quis sit in id egestas turpis vitae tristique senectus
+                          5x faster AI deployment via pre-optimized integration
+                          pipelines
                         </h3>
                       </div>
                     </li>
@@ -161,7 +163,8 @@ const ServiceDetail = () => {
                       </div>
                       <div className="text">
                         <h3>
-                          Neque eleifend amet ut vel fusce facilisis nulla
+                          70% reduction in adoption complexity with AI
+                          frameworks
                         </h3>
                       </div>
                     </li>
@@ -171,8 +174,8 @@ const ServiceDetail = () => {
                       </div>
                       <div className="text">
                         <h3>
-                          Nulla at diam cursus lorem nunc facilisis non
-                          phasellus
+                          50% increase in enterprise efficiency through scalable
+                          automation
                         </h3>
                       </div>
                     </li>
@@ -182,7 +185,8 @@ const ServiceDetail = () => {
                       </div>
                       <div className="text">
                         <h3>
-                          Nullam faucibus facilisis nunc turpis adipiscing
+                          99.9% compliance adherence via built-in ethical AI
+                          governance
                         </h3>
                       </div>
                     </li>
@@ -192,7 +196,8 @@ const ServiceDetail = () => {
                       </div>
                       <div className="text">
                         <h3>
-                          Quis sit in id egestas turpis vitae tristique senectus
+                          40% cost savings in AI implementation & infrastructure
+                          scaling
                         </h3>
                       </div>
                     </li>

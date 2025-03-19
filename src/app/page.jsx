@@ -406,7 +406,8 @@ function page() {
             <div className="col-lg-4">
               <div className="faq-caption">
                 <h2 className="title">
-                  Frequently Asked <br /> Questions (FAQ)
+                  Have questions? <br />
+                  Get answers!
                 </h2>
               </div>
             </div>

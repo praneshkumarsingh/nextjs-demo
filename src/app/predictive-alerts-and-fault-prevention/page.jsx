@@ -116,7 +116,7 @@ const ServiceDetail = () => {
             <div className="col-lg-8 offset-lg-2">
               <div className="site-heading text-center">
                 <h2 className="title">
-                  Evolving AI for continuous optimization
+                  AI that prevents failures before they happen
                 </h2>
               </div>
             </div>
@@ -126,24 +126,25 @@ const ServiceDetail = () => {
               <div className="col-lg-6">
                 <div className="benfit-content me-5">
                   <p className="desc">
-                    Elile’s AI-Driven Adaptive Systems integrate reinforcement
-                    learning, real-time environmental sensing, and
-                    self-optimizing neural networks to create AI that
-                    continuously evolves. Unlike static models, our AI detects
-                    operational fluctuations, adapts decision pathways, and
-                    autonomously refines its performance through iterative
-                    learning.
+                    Elile’s Predictive Alerts & Fault Prevention system utilizes
+                    real-time anomaly detection, probabilistic risk assessment,
+                    and multi-agent AI coordination to eliminate failures before
+                    they escalate. Our AI integrates time-series forecasting,
+                    deep-learning-driven failure pattern recognition, and
+                    adaptive risk mitigation models to anticipate
+                    vulnerabilities with near-zero latency.
                   </p>
                   <p className="desc">
-                    Leveraging edge-AI integration and multi-layered feedback
-                    loops, it dynamically adjusts resource allocation, optimizes
-                    workloads, and prevents inefficiencies at sub-second speeds.
+                    By leveraging multi-source sensor fusion and reinforcement
+                    learning, our system continuously optimizes failure
+                    prediction models, automates response triggers, and
+                    synchronizes predictive maintenance strategies across
+                    assets.
                   </p>
                   <p className="desc">
-                    Our hybrid adaptive architecture ensures AI remains
-                    resilient, scalable, and responsive to evolving industry
-                    needs, delivering unparalleled efficiency, sustainability,
-                    and predictive intelligence, without human intervention.
+                    With self-correcting AI-driven mechanisms, we ensure
+                    proactive risk mitigation, reduced downtime, and extended
+                    asset longevity, delivering industrial-scale resilience.
                   </p>
                 </div>
               </div>
@@ -155,8 +156,17 @@ const ServiceDetail = () => {
                         <img src="/check.svg" />
                       </div>
                       <div className="text">
+                        <h3>80% fewer system failures with predictive AI</h3>
+                      </div>
+                    </li>
+                    <li>
+                      <div className="icon">
+                        <img src="/check.svg" />
+                      </div>
+                      <div className="text">
                         <h3>
-                          Quis sit in id egestas turpis vitae tristique senectus
+                          60% faster issue resolution with AI-powered
+                          diagnostics
                         </h3>
                       </div>
                     </li>
@@ -166,7 +176,8 @@ const ServiceDetail = () => {
                       </div>
                       <div className="text">
                         <h3>
-                          Neque eleifend amet ut vel fusce facilisis nulla
+                          50% fewer maintenance costs with proactive fault
+                          prevention
                         </h3>
                       </div>
                     </li>
@@ -176,18 +187,7 @@ const ServiceDetail = () => {
                       </div>
                       <div className="text">
                         <h3>
-                          Nulla at diam cursus lorem nunc facilisis non
-                          phasellus
-                        </h3>
-                      </div>
-                    </li>
-                    <li>
-                      <div className="icon">
-                        <img src="/check.svg" />
-                      </div>
-                      <div className="text">
-                        <h3>
-                          Nullam faucibus facilisis nunc turpis adipiscing
+                          99.9% system uptime with automated risk mitigation
                         </h3>
                       </div>
                     </li>
@@ -197,7 +197,8 @@ const ServiceDetail = () => {
                       </div>
                       <div className="text">
                         <h3>
-                          Quis sit in id egestas turpis vitae tristique senectus
+                          3x improvement in asset lifespan via self-correcting
+                          AI
                         </h3>
                       </div>
                     </li>
