@@ -29,20 +29,18 @@ export const Domains = () => {
             <div className="col-xl-4">
               <div className="choose-us-style-two">
                 <h2 className="title mb-5">
-                  Grow business <br /> with creative <br /> ideas
+                  AI-optimized solar <br /> performance
                 </h2>
                 <div className="domain-desc">
                   <p className="desc">
-                    Our predictive capabilities leverage AI models like deep
-                    learning, Bayesian networks, and probabilistic graphical
-                    models to anticipate failures before they occur. Using
-                    high-resolution time-series forecasting, federated learning,
-                    and anomaly detection, we process real-time data from SCADA,
-                    IoT sensors, and edge computing nodes. Built on
-                    domain-specific datasets, our models dynamically
-                    recalibrate, enabling millisecond-precision predictive
-                    maintenance while continuously improving failure
-                    classification and degradation modelling.
+                    Maximize solar energy yield with AI-driven photovoltaic
+                    efficiency modelling, predictive fault detection, and
+                    real-time grid balancing. Our multi-agent AI optimizes panel
+                    orientation, mitigates shading losses, and autonomously
+                    adjusts power distribution, ensuring higher energy output,
+                    lower maintenance costs, and seamless grid
+                    integration—making solar farms more resilient, adaptive, and
+                    scalable.
                   </p>
                 </div>
               </div>
@@ -58,14 +56,14 @@ export const Domains = () => {
                     <path id="textPath" d="M 0,75 a 75,75 0 1,1 0,1 z"></path>
                     <text>
                       <textPath href="#textPath">
-                        Award winning creative digital agency
+                        AI-optimized solar performance
                       </textPath>
                     </text>
                   </svg>
                 </div>
-                <h2 className="text-path">since 1980</h2>
+                <h2 className="text-path">Solar PV</h2>
                 <img
-                  src="/img/about-service.jpg"
+                  src="/img/solar.png"
                   alt="Image Not Found"
                   className="img-fluid"
                 />
@@ -78,20 +76,19 @@ export const Domains = () => {
             <div className="col-xl-4">
               <div className="choose-us-style-two">
                 <h2 className="title mb-5">
-                  Grow business <br /> with creative <br /> ideas
+                  Intelligent wind farm
+                  <br /> optimization
                 </h2>
                 <div className="domain-desc">
                   <p className="desc">
-                    Our predictive capabilities leverage AI models like deep
-                    learning, Bayesian networks, and probabilistic graphical
-                    models to anticipate failures before they occur. Using
-                    high-resolution time-series forecasting, federated learning,
-                    and anomaly detection, we process real-time data from SCADA,
-                    IoT sensors, and edge computing nodes. Built on
-                    domain-specific datasets, our models dynamically
-                    recalibrate, enabling millisecond-precision predictive
-                    maintenance while continuously improving failure
-                    classification and degradation modelling.
+                    Transform wind operations with AI-powered aerodynamic
+                    control, self-optimizing yaw adjustments, and predictive
+                    blade maintenance. Our adaptive multi-agent AI mitigates
+                    wind turbulence losses, prevents mechanical failures, and
+                    ensures real-time grid synchronization. With reinforcement
+                    learning-driven energy forecasting, we boost power output,
+                    extend turbine lifespan, and eliminate inefficiencies in
+                    dynamic wind conditions.
                   </p>
                 </div>
               </div>
@@ -107,14 +104,14 @@ export const Domains = () => {
                     <path id="textPath" d="M 0,75 a 75,75 0 1,1 0,1 z"></path>
                     <text>
                       <textPath href="#textPath">
-                        Award winning creative digital agency
+                        Intelligent wind farm optimization
                       </textPath>
                     </text>
                   </svg>
                 </div>
-                <h2 className="text-path">since 1980</h2>
+                <h2 className="text-path">Wind Farms</h2>
                 <img
-                  src="/img/about-service.jpg"
+                  src="/img/wind-turbines.png"
                   alt="Image Not Found"
                   className="img-fluid"
                 />
@@ -127,20 +124,18 @@ export const Domains = () => {
             <div className="col-xl-4">
               <div className="choose-us-style-two">
                 <h2 className="title mb-5">
-                  Grow business <br /> with creative <br /> ideas
+                  AI-driven turbine <br /> intelligence
                 </h2>
                 <div className="domain-desc">
                   <p className="desc">
-                    Our predictive capabilities leverage AI models like deep
-                    learning, Bayesian networks, and probabilistic graphical
-                    models to anticipate failures before they occur. Using
-                    high-resolution time-series forecasting, federated learning,
-                    and anomaly detection, we process real-time data from SCADA,
-                    IoT sensors, and edge computing nodes. Built on
-                    domain-specific datasets, our models dynamically
-                    recalibrate, enabling millisecond-precision predictive
-                    maintenance while continuously improving failure
-                    classification and degradation modelling.
+                    Enhance turbine performance with real-time anomaly
+                    detection, predictive maintenance, and AI-optimized
+                    combustion efficiency. Our multi-agent AI autonomously
+                    adjusts fuel-air ratios, prevents thermal degradation, and
+                    optimizes operational loads, reducing downtime, emissions,
+                    and maintenance costs. With self-learning diagnostics, gas
+                    turbines achieve unparalleled reliability, longevity, and
+                    energy efficiency.
                   </p>
                 </div>
               </div>
@@ -156,13 +151,109 @@ export const Domains = () => {
                     <path id="textPath" d="M 0,75 a 75,75 0 1,1 0,1 z"></path>
                     <text>
                       <textPath href="#textPath">
-                        Award winning creative digital agency
+                        AI-driven turbine intelligence
                       </textPath>
                     </text>
                   </svg>
                 </div>
 
-                <h2 className="text-path">since 1980</h2>
+                <h2 className="text-path">Gas Turbines</h2>
+                <img
+                  src="/img/gas-turbines.png"
+                  alt="Image Not Found"
+                  className="img-fluid"
+                />
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="row">
+            <div className="col-xl-4">
+              <div className="choose-us-style-two">
+                <h2 className="title mb-5">
+                  AI-powered desal <br /> operations
+                </h2>
+                <div className="domain-desc">
+                  <p className="desc">
+                    Enhance turbine performance with real-time anomaly
+                    detection, predictive maintenance, and AI-optimized
+                    combustion efficiency. Our multi-agent AI autonomously
+                    adjusts fuel-air ratios, prevents thermal degradation, and
+                    optimizes operational loads, reducing downtime, emissions,
+                    and maintenance costs. With self-learning diagnostics, gas
+                    turbines achieve unparalleled reliability, longevity, and
+                    energy efficiency.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-7 offset-xl-1 text-end">
+              <div className="choose-us-style-two-thumb">
+                <div className="curve-text">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 150 150"
+                    version="1.1"
+                  >
+                    <path id="textPath" d="M 0,75 a 75,75 0 1,1 0,1 z"></path>
+                    <text>
+                      <textPath href="#textPath">
+                        AI-powered desal operations
+                      </textPath>
+                    </text>
+                  </svg>
+                </div>
+
+                <h2 className="text-path">Reverse Osmosis</h2>
+                <img
+                  src="/img/desalination-plants.png"
+                  alt="Image Not Found"
+                  className="img-fluid"
+                />
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="row">
+            <div className="col-xl-4">
+              <div className="choose-us-style-two">
+                <h2 className="title mb-5">
+                  Autonomous data center <br /> optimization
+                </h2>
+                <div className="domain-desc">
+                  <p className="desc">
+                    Drive zero-downtime, energy-efficient data centers with
+                    AI-powered cooling intelligence, predictive failure
+                    mitigation, and adaptive workload distribution. Our AI
+                    autonomously regulates thermal loads, optimizes power usage,
+                    and prevents hardware failures, achieving 50% greater energy
+                    efficiency, 70% lower downtime, and scalable infrastructure
+                    resilience. The future of self-sustaining, AI-driven data
+                    operations starts here.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-7 offset-xl-1 text-end">
+              <div className="choose-us-style-two-thumb">
+                <div className="curve-text">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 150 150"
+                    version="1.1"
+                  >
+                    <path id="textPath" d="M 0,75 a 75,75 0 1,1 0,1 z"></path>
+                    <text>
+                      <textPath href="#textPath">
+                        Autonomous data center optimization
+                      </textPath>
+                    </text>
+                  </svg>
+                </div>
+
+                <h2 className="text-path">Data Centers</h2>
                 <img
                   src="/img/about-service.jpg"
                   alt="Image Not Found"

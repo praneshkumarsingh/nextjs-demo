@@ -40,6 +40,7 @@ const Header = () => {
                     Why Elile
                   </Link>
                 </li>
+
                 <li className="nav-item dropdown">
                   <Link
                     className="nav-link dropdown-toggle"
@@ -48,49 +49,7 @@ const Header = () => {
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
-                    Energy Efficiency
-                  </Link>
-                  <ul className="dropdown-menu">
-                    <li>
-                      <Link className="dropdown-item" href="/data-engineering">
-                        Data Engineering
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        className="dropdown-item"
-                        href="/monitoring-alerting"
-                      >
-                        Monitoring & Alerting
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        className="dropdown-item"
-                        href="/diagnostics-remediation"
-                      >
-                        Diagnostics & Remediation
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        className="dropdown-item"
-                        href="/performance-optimization"
-                      >
-                        Performance Optimization
-                      </Link>
-                    </li>
-                  </ul>
-                </li>
-                <li className="nav-item dropdown">
-                  <Link
-                    className="nav-link dropdown-toggle"
-                    href="#"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Services
+                    AI Solutions
                   </Link>
                   <ul className="dropdown-menu">
                     <li>
@@ -151,6 +110,48 @@ const Header = () => {
                   >
                     Domains
                   </Link>
+                </li>
+                <li className="nav-item dropdown">
+                  <Link
+                    className="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Energy Efficiency
+                  </Link>
+                  <ul className="dropdown-menu">
+                    <li>
+                      <Link className="dropdown-item" href="/data-engineering">
+                        Data Engineering
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        className="dropdown-item"
+                        href="/monitoring-alerting"
+                      >
+                        Monitoring & Alerting
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        className="dropdown-item"
+                        href="/diagnostics-remediation"
+                      >
+                        Diagnostics & Remediation
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        className="dropdown-item"
+                        href="/performance-optimization"
+                      >
+                        Performance Optimization
+                      </Link>
+                    </li>
+                  </ul>
                 </li>
               </ul>
               <div className="d-flex">

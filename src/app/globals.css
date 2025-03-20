@@ -762,13 +762,13 @@ footer .widget-title {
 }
 
 h2.text-path {
-  font-size: 80px;
+  font-size: 60px;
   color: transparent;
   -webkit-text-stroke: 1px #fff;
   font-weight: 900;
   text-transform: uppercase;
   line-height: 1;
-  margin-bottom: 50px;
+  margin-bottom: 24px;
   margin-top: 40px;
 }
 
