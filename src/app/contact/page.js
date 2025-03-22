@@ -286,7 +286,7 @@ const page = () => {
                       </div>
                       <div className="col-12">
                         <div className="contact-form-item pt-10">
-                          <button type="submit">Set In Touch</button>
+                          <button type="submit">Gaset In Touch</button>
                         </div>
                       </div>
                     </div>

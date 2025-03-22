@@ -220,7 +220,7 @@ export const Domains = () => {
             <div className="col-xl-4">
               <div className="choose-us-style-two">
                 <h2 className="title mb-5">
-                  Autonomous data center <br /> optimization
+                  Autonomous data center optimization
                 </h2>
                 <div className="domain-desc">
                   <p className="desc">

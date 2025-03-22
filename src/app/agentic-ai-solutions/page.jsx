@@ -209,17 +209,17 @@ const ServiceDetail = () => {
             <div className="col-lg-12">
               <div className="cta-inner text-center">
                 <h2>
-                  Ready to revolutionize
-                  <br /> our service?
+                  Need a teammate engineered
+                  <br /> or your business?
                 </h2>
                 <p className="desc">
-                  Optimize your impact this holiday season with an AI-driven,
+                  Empower your operations with Agentic AI - autonomous, adaptive
                   <br />
-                  multichannel marketing strategy.
+                  teammates that learn and execute at scale.
                 </p>
                 <div className="mt-2">
                   <a className="default-btn" href="#!">
-                    Explore More
+                    Get in Touch
                   </a>
                   <a className="default-btn style-two ms-4" href="/about">
                     Learn More
